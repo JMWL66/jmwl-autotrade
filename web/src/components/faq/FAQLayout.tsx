@@ -159,7 +159,7 @@ export function FAQLayout({ language }: FAQLayoutProps) {
               GitHub
             </a>
             <a
-              href="https://t.me/nofx_dev_community"
+              href="https://t.me/fXqjJaVgaKZjYjVl"
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-3 rounded-lg font-semibold transition-all hover:scale-105"

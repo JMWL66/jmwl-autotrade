@@ -206,8 +206,6 @@ function ModelSelectionStep({
   onSelectModel: (modelId: string) => void
   language: Language
 }) {
-  const [showOtherProviders, setShowOtherProviders] = useState(false)
-  const claw402Model = availableModels.find((m) => m.provider === 'claw402')
   const otherProviders = availableModels.filter((m) => m.provider !== 'claw402')
 
   return (
@@ -216,96 +214,27 @@ function ModelSelectionStep({
         {t('modelConfig.chooseProvider', language)}
       </div>
 
-      {/* Claw402 Featured Card */}
-      {claw402Model && (
-        <button
-          type="button"
-          onClick={() => {
-            onSelectModel(claw402Model.id)
-          }}
-          className="w-full p-5 rounded-xl text-left transition-all hover:scale-[1.01]"
-          style={{ background: 'linear-gradient(135deg, rgba(37, 99, 235, 0.15) 0%, rgba(139, 92, 246, 0.15) 100%)', border: '1.5px solid rgba(37, 99, 235, 0.4)' }}
-        >
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
-                <img src="/icons/claw402.png" alt="Claw402" width={40} height={40} />
-              </div>
-              <div>
-                <div className="font-bold text-base" style={{ color: '#EAECEF' }}>
-                  Claw402
-                  <a href="https://claw402.ai" target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()} className="ml-1.5 text-[10px] font-normal px-1.5 py-0.5 rounded" style={{ color: '#60A5FA', background: 'rgba(96, 165, 250, 0.1)' }}>↗ claw402.ai</a>
-                </div>
-                <div className="text-xs mt-0.5" style={{ color: '#A0AEC0' }}>
-                  {t('modelConfig.payPerCall', language)}
-                </div>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              {configuredIds.has(claw402Model.id) && (
-                <div className="w-2 h-2 rounded-full" style={{ background: '#00E096' }} />
-              )}
-              <div className="px-3 py-1.5 rounded-full text-xs font-bold" style={{ background: 'linear-gradient(135deg, #2563EB, #7C3AED)', color: '#fff' }}>
-                {'🔥 ' + t('modelConfig.recommended', language)}
-              </div>
-            </div>
-          </div>
-          <div className="flex items-center gap-3 mt-3 ml-[52px]">
-            <span className="text-[11px] px-2 py-0.5 rounded-full" style={{ background: 'rgba(0, 224, 150, 0.1)', color: '#00E096', border: '1px solid rgba(0, 224, 150, 0.2)' }}>
-              GPT · Claude · DeepSeek · Gemini · Grok · Qwen · Kimi
-            </span>
-          </div>
-          <div className="mt-4 ml-[52px] text-[11px]" style={{ color: '#A0AEC0' }}>
-            {t('modelConfig.claw402EntryDesc', language)}
-          </div>
-        </button>
-      )}
+      <div className="text-xs" style={{ color: '#848E9C' }}>
+        {t('modelConfig.otherApiEntryDesc', language)}
+      </div>
 
       {otherProviders.length > 0 && (
-        <div className="rounded-xl border border-white/10 bg-black/20 overflow-hidden">
-          <button
-            type="button"
-            onClick={() => setShowOtherProviders((prev) => !prev)}
-            className="w-full flex items-center justify-between px-4 py-4 text-left transition-all hover:bg-white/5"
-          >
-            <div>
-              <div className="text-sm font-semibold" style={{ color: '#EAECEF' }}>
-                {t('modelConfig.otherApiEntry', language)}
-              </div>
-              <div className="mt-1 text-xs" style={{ color: '#848E9C' }}>
-                {t('modelConfig.otherApiEntryDesc', language)}
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <span className="rounded-full border border-white/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-[0.2em]" style={{ color: '#A0AEC0' }}>
-                {otherProviders.length} API
-              </span>
-              <span className="text-sm" style={{ color: '#60A5FA' }}>
-                {showOtherProviders ? '−' : '+'}
-              </span>
-            </div>
-          </button>
-
-          {showOtherProviders && (
-            <div className="border-t border-white/5 px-4 py-4">
-              <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
-                {otherProviders.map((model) => (
-                  <ModelCard
-                    key={model.id}
-                    model={model}
-                    selected={selectedModelId === model.id}
-                    onClick={() => onSelectModel(model.id)}
-                    configured={configuredIds.has(model.id)}
-                  />
-                ))}
-              </div>
-              <div className="text-xs text-center pt-3" style={{ color: '#848E9C' }}>
-                {t('modelConfig.modelsConfigured', language)}
-              </div>
-            </div>
-          )}
+        <div className="grid grid-cols-3 sm:grid-cols-4 gap-3">
+          {otherProviders.map((model) => (
+            <ModelCard
+              key={model.id}
+              model={model}
+              selected={selectedModelId === model.id}
+              onClick={() => onSelectModel(model.id)}
+              configured={configuredIds.has(model.id)}
+            />
+          ))}
         </div>
       )}
+
+      <div className="text-xs text-center pt-1" style={{ color: '#848E9C' }}>
+        {t('modelConfig.modelsConfigured', language)}
+      </div>
     </div>
   )
 }

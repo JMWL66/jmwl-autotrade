@@ -169,20 +169,19 @@ export default function TerminalHero() {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-nofx-gold opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-nofx-gold"></span>
                         </span>
-                        <span className="text-xs font-mono text-nofx-gold tracking-widest">NOFX OPEN-SOURCE AGENTIC OS</span>
+                        <span className="text-xs font-mono text-nofx-gold tracking-widest">加密未来开源 AI 核心</span>
                     </motion.div>
 
                     {/* Main Title - Massive & Impactful */}
-                    {/* Main Title - Massive & Impactful */}
                     <div className="relative z-20 mix-blend-hard-light md:mix-blend-normal">
-                        <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-black tracking-tighter leading-[0.9] md:leading-[0.8] mb-6 select-none bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-zinc-600 drop-shadow-2xl">
-                            AGENTIC<br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold via-white to-nofx-gold animate-shimmer bg-[length:200%_auto] tracking-tight filter drop-shadow-[0_0_15px_rgba(234,179,8,0.3)]">TRADING</span>
+                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-black tracking-tighter leading-[1.1] md:leading-[1.0] mb-6 select-none bg-clip-text text-transparent bg-gradient-to-b from-white via-white to-zinc-600 drop-shadow-2xl font-sans">
+                            加密未来<br />
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold via-white to-nofx-gold animate-shimmer bg-[length:200%_auto] tracking-tight filter drop-shadow-[0_0_15px_rgba(234,179,8,0.3)] whitespace-nowrap">交易系统Pro</span>
                         </h1>
 
                         <p className="max-w-xl text-zinc-200 md:text-zinc-400 text-lg mb-6 font-light leading-relaxed drop-shadow-md">
-                            The World's First Open-Source Agentic Trading OS.
-                            Deploy autonomous high-frequency trading agents powered by advanced LLMs.
+                            世界首款开源 AI 代理交易操作系统。<br />
+                            部署由高级大型语言模型驱动的自主高频交易引擎。
                         </p>
                     </div>
 

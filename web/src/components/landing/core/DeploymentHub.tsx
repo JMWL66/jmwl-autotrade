@@ -23,22 +23,22 @@ export default function DeploymentHub() {
                     {/* Left Column: Context */}
                     <div className="space-y-8">
                         <div className="flex items-center gap-2 text-nofx-gold font-mono text-xs tracking-[0.2em] uppercase">
-                            <Server className="w-4 h-4" /> System Deployment
+                            <Server className="w-4 h-4" /> 系统部署
                         </div>
 
                         <h2 className="text-4xl md:text-6xl font-black text-white leading-tight">
-                            DEPLOY <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold to-white">INSTANTLY</span>
+                            极速 <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold to-white">部署</span>
                         </h2>
 
                         <p className="text-zinc-400 text-lg leading-relaxed font-light">
-                            Initialize your own high-frequency trading node in seconds.
-                            Our optimized installer handles all dependencies, bringing your autonomous agent online with a single command.
+                            秒级初始化您的专属高频交易节点。
+                            我们优化的安装程序会自动处理所有依赖，只需一行命令即可使您的自主代理上线。
                         </p>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                             {[
-                                { icon: Command, label: "One-Line Install", desc: "No configuration needed" },
-                                { icon: Shield, label: "Secure Core", desc: "Sandboxed execution env" }
+                                { icon: Command, label: "一行命令安装", desc: "完全免配置" },
+                                { icon: Shield, label: "核心安全", desc: "沙盒执行环境" }
                             ].map((item, i) => (
                                 <div key={i} className="flex gap-4 items-start p-4 rounded bg-zinc-900/50 border border-zinc-800 hover:border-nofx-gold/30 transition-colors group">
                                     <div className="p-2 rounded bg-black border border-zinc-800 text-nofx-gold group-hover:bg-nofx-gold/10 transition-colors">
@@ -79,7 +79,7 @@ export default function DeploymentHub() {
 
                             {/* Terminal Content */}
                             <div className="p-8 font-mono text-sm md:text-base bg-black/50 backdrop-blur-sm min-h-[200px] flex flex-col justify-center">
-                                <div className="mb-2 text-zinc-500 text-xs tracking-wide"># Initialize NoFX Core Protocol</div>
+                                <div className="mb-2 text-zinc-500 text-xs tracking-wide"># 初始化加密未来核心协议</div>
                                 <div
                                     className="group relative flex items-start gap-3 p-4 rounded-lg bg-zinc-900/50 border border-zinc-800 hover:border-nofx-gold/50 cursor-pointer transition-all hover:bg-zinc-900/80"
                                     onClick={handleCopy}

@@ -6,7 +6,6 @@ import { useLanguage } from '../../contexts/LanguageContext'
 import { t } from '../../i18n/translations'
 import { DeepVoidBackground } from '../common/DeepVoidBackground'
 import { LanguageSwitcher } from '../common/LanguageSwitcher'
-import { OnboardingModeSelector } from './OnboardingModeSelector'
 import type { UserMode } from '../../lib/onboarding'
 
 export function LoginPage() {
@@ -18,7 +17,7 @@ export function LoginPage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [expiredToastId, setExpiredToastId] = useState<string | number | null>(null)
-  const [mode, setMode] = useState<UserMode>('beginner')
+  const [mode] = useState<UserMode>('advanced')
 
   // Clean up stale auth state once on mount
   useEffect(() => {
@@ -123,11 +122,7 @@ export function LoginPage() {
                 </div>
               </div>
 
-              <OnboardingModeSelector
-                language={language}
-                mode={mode}
-                onChange={setMode}
-              />
+
 
               {/* Error */}
               {error && (

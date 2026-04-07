@@ -5,13 +5,11 @@ import { useAuth } from '../../../contexts/AuthContext'
 const agents = [
     {
         name: "ALPHA-1",
-        // ... (rest of agents array remains, but I can't skip lines in replacement content easily without context. Wait, let's just replace the top section)
-        // Actually, I'll use multi_replace for targeted cleanup.
-        class: "SCALPER",
-        desc: "High-frequency microstructure exploitation.",
+        class: "剥头皮策略",
+        desc: "高频微观结构套利。",
         apy: "142%",
         winRate: "68%",
-        risk: "HIGH",
+        risk: "高",
         color: "text-nofx-gold",
         border: "border-nofx-gold/50",
         bg_glow: "shadow-[0_0_30px_rgba(240,185,11,0.1)]",
@@ -19,11 +17,11 @@ const agents = [
     },
     {
         name: "BETA-X",
-        class: "SWING_OPS",
-        desc: "Multi-day trend extraction engine.",
+        class: "波段操作",
+        desc: "多日趋势提取引擎。",
         apy: "89%",
         winRate: "55%",
-        risk: "MED",
+        risk: "中",
         color: "text-blue-400",
         border: "border-blue-400/30",
         bg_glow: "shadow-[0_0_30px_rgba(96,165,250,0.1)]",
@@ -31,11 +29,11 @@ const agents = [
     },
     {
         name: "GAMMA-RAY",
-        class: "ARBITRAGE",
-        desc: "Low-risk spatial price equalization.",
+        class: "套利交易",
+        desc: "低风险空间价格均衡。",
         apy: "24%",
         winRate: "99%",
-        risk: "LOW",
+        risk: "低",
         color: "text-purple-400",
         border: "border-purple-400/30",
         bg_glow: "shadow-[0_0_30px_rgba(192,132,252,0.1)]",
@@ -70,11 +68,11 @@ export default function AgentGrid() {
                             <Crosshair className="w-4 h-4" /> MARKET SELECT
                         </div>
                         <h2 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter">
-                            STRATEGY <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold to-white">UNITS</span>
+                            策略 <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold to-white">单元</span>
                         </h2>
                     </div>
                     <div className="font-mono text-right text-xs text-zinc-500 max-w-xs">
-                        SELECT AN AUTONOMOUS AGENT TO BEGIN DEPLOYMENT. UNITS ARE PRE-TRAINED ON HISTORICAL TICKS.
+                        选择自主代理开始部署。模型已在历史数据上进行预训练。
                     </div>
                 </div>
 
@@ -101,7 +99,7 @@ export default function AgentGrid() {
                                             <Icon className={`w-8 h-8 ${agent.color}`} />
                                         </div>
                                         <div className="text-right">
-                                            <div className="text-[10px] font-mono text-zinc-500 uppercase">Class</div>
+                                            <div className="text-[10px] font-mono text-zinc-500 uppercase">类型</div>
                                             <div className={`font-bold font-mono tracking-wider ${agent.color}`}>{agent.class}</div>
                                         </div>
                                     </div>
@@ -113,15 +111,15 @@ export default function AgentGrid() {
                                     {/* Stats Grid */}
                                     <div className="grid grid-cols-3 gap-px bg-zinc-800/50 border border-zinc-800 rounded overflow-hidden mb-8">
                                         <div className="bg-black/60 p-3 text-center group-hover:bg-zinc-900/60 transition-colors">
-                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">APY</div>
+                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">年化</div>
                                             <div className="text-green-400 font-bold">{agent.apy}</div>
                                         </div>
                                         <div className="bg-black/60 p-3 text-center group-hover:bg-zinc-900/60 transition-colors">
-                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">Win %</div>
+                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">胜率</div>
                                             <div className="text-white font-bold">{agent.winRate}</div>
                                         </div>
                                         <div className="bg-black/60 p-3 text-center group-hover:bg-zinc-900/60 transition-colors">
-                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">Risk</div>
+                                            <div className="text-[10px] text-zinc-500 uppercase font-mono mb-1">风险</div>
                                             <div className={`${agent.color} font-bold`}>{agent.risk}</div>
                                         </div>
                                     </div>
@@ -131,7 +129,7 @@ export default function AgentGrid() {
                                         onClick={handleInitialize}
                                         className={`w-full py-4 text-xs font-bold font-mono uppercase tracking-[0.2em] border border-zinc-700 hover:border-${agent.color === 'text-nofx-gold' ? 'nofx-gold' : 'white'} hover:bg-white/5 transition-all flex items-center justify-center gap-2 group-hover:text-white cursor-pointer`}
                                     >
-                                        <span className={agent.color}>[</span> INITIALIZE <span className={agent.color}>]</span>
+                                        <span className={agent.color}>[</span> 初始化 <span className={agent.color}>]</span>
                                     </button>
                                 </div>
 

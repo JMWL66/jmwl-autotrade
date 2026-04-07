@@ -50,9 +50,9 @@ export default function FooterSection({ language }: FooterSectionProps) {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <img src="/icons/nofx.svg" alt="NOFX Logo" className="w-8 h-8" />
+              <img src="/icons/jmwl.jpg" alt="JMWL Logo" className="w-8 h-8 rounded-full shadow-[0_0_10px_rgba(234,179,8,0.3)]" />
               <span className="text-xl font-bold" style={{ color: '#EAECEF' }}>
-                NOFX
+                JMWL
               </span>
             </div>
             <p className="text-sm mb-6" style={{ color: '#5E6673' }}>
