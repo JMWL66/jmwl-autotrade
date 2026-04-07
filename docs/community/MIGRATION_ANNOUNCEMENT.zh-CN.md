@@ -246,7 +246,7 @@ perf(ai): optimize prompt generation
   - 合并冲突 → 基于最新 `dev` rebase
 
 **需要帮助？** 只管问！在你的 PR 中评论或联系：
-- [GitHub Discussions](https://github.com/NoFxAiOS/nofx/discussions)
+- [GitHub Discussions](https://github.com/JMWL66/jmwl-autotrade/discussions)
 - [Telegram 社区](https://t.me/nofx_dev_community)
 
 ---
@@ -323,11 +323,11 @@ perf(ai): optimize prompt generation
 
 ### 有用链接
 - [Conventional Commits](https://www.conventionalcommits.org/) - Commit 格式
-- [Good First Issues](https://github.com/NoFxAiOS/nofx/labels/good%20first%20issue) - 适合初学者的任务
+- [Good First Issues](https://github.com/JMWL66/jmwl-autotrade/labels/good%20first%20issue) - 适合初学者的任务
 - [悬赏计划](../bounty-guide.md) - 获得报酬来贡献
 
 ### 获取帮助
-- [GitHub Discussions](https://github.com/NoFxAiOS/nofx/discussions) - 提问
+- [GitHub Discussions](https://github.com/JMWL66/jmwl-autotrade/discussions) - 提问
 - [Telegram](https://t.me/nofx_dev_community) - 社区聊天
 - [Twitter](https://x.com/nofx_official) - 更新和公告
 
@@ -341,7 +341,7 @@ perf(ai): optimize prompt generation
 - 🤔 你有什么顾虑？
 - 💡 我们如何改进？
 
-在[迁移反馈讨论](https://github.com/NoFxAiOS/nofx/discussions)中分享（链接待定）
+在[迁移反馈讨论](https://github.com/JMWL66/jmwl-autotrade/discussions)中分享（链接待定）
 
 ---
 

@@ -42,7 +42,7 @@ Everything here is transparent and designed to help you contribute successfully!
 
 ## 📞 Questions?
 
-- **Public questions:** Use [GitHub Discussions](https://github.com/NoFxAiOS/nofx/discussions)
+- **Public questions:** Use [GitHub Discussions](https://github.com/JMWL66/jmwl-autotrade/discussions)
 - **Maintainer questions:** Use the maintainer channel
 - **Migration questions:** See [Migration Announcement](../community/MIGRATION_ANNOUNCEMENT.md)
 

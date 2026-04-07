@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NoFxAiOS/nofx/stargazers"><img src="https://img.shields.io/github/stars/NoFxAiOS/nofx?style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/releases"><img src="https://img.shields.io/github/v/release/NoFxAiOS/nofx?style=for-the-badge" alt="Release"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/stargazers"><img src="https://img.shields.io/github/stars/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/releases"><img src="https://img.shields.io/github/v/release/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Release"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
   <a href="https://t.me/nofx_dev_community"><img src="https://img.shields.io/badge/Telegram-Community-blue?style=for-the-badge&logo=telegram" alt="Telegram"></a>
 </p>
 
@@ -38,7 +38,7 @@ NOFX — это **автономный** AI торговый ассистент 
 Ключевое отличие: **встроенные [x402](https://x402.org) микроплатежи**. Без API ключей. Пополните USDC кошелёк и платите за каждый запрос. Кошелёк — это ваша идентификация.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 Откройте **http://127.0.0.1:3000**. Готово.
@@ -125,7 +125,7 @@ x402 процесс:
 ### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 ### Railway (Облако)
@@ -135,7 +135,7 @@ curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bas
 ### Docker
 
 ```bash
-curl -O https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+curl -O https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -146,7 +146,7 @@ docker compose -f docker-compose.prod.yml up -d
 # macOS: brew install ta-lib
 # Ubuntu: sudo apt-get install libta-lib0-dev
 
-git clone https://github.com/NoFxAiOS/nofx.git && cd nofx
+git clone https://github.com/JMWL66/jmwl-autotrade.git && cd nofx
 go build -o nofx && ./nofx          # бэкенд
 cd web && npm install && npm run dev  # фронтенд (новый терминал)
 ```
@@ -171,4 +171,4 @@ cd web && npm install && npm run dev  # фронтенд (новый терми�
 
 [AGPL-3.0](../../../LICENSE)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NoFxAiOS/nofx&type=Date)](https://star-history.com/#NoFxAiOS/nofx&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=JMWL66/jmwl-autotrade&type=Date)](https://star-history.com/#JMWL66/jmwl-autotrade&Date)

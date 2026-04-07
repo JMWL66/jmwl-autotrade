@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NoFxAiOS/nofx/stargazers"><img src="https://img.shields.io/github/stars/NoFxAiOS/nofx?style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/releases"><img src="https://img.shields.io/github/v/release/NoFxAiOS/nofx?style=for-the-badge" alt="Release"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/stargazers"><img src="https://img.shields.io/github/stars/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/releases"><img src="https://img.shields.io/github/v/release/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Release"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
   <a href="https://t.me/nofx_dev_community"><img src="https://img.shields.io/badge/Telegram-Community-blue?style=for-the-badge&logo=telegram" alt="Telegram"></a>
 </p>
 
@@ -38,7 +38,7 @@ NOFX is an open-source **autonomous** AI trading assistant. Unlike traditional A
 What makes it different: **built-in [x402](https://x402.org) micropayments**. No API keys. Fund a USDC wallet and pay per request. Your wallet is your identity.
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 Open **http://127.0.0.1:3000**. Done.
@@ -167,7 +167,7 @@ Crypto · US Stocks · Forex · Metals
 ### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 ### Railway (Cloud)
@@ -177,7 +177,7 @@ curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bas
 ### Docker
 
 ```bash
-curl -O https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+curl -O https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -186,7 +186,7 @@ docker compose -f docker-compose.prod.yml up -d
 Install [Docker Desktop](https://www.docker.com/products/docker-desktop/), then:
 
 ```powershell
-curl -o docker-compose.prod.yml https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+curl -o docker-compose.prod.yml https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -197,7 +197,7 @@ docker compose -f docker-compose.prod.yml up -d
 # macOS: brew install ta-lib
 # Ubuntu: sudo apt-get install libta-lib0-dev
 
-git clone https://github.com/NoFxAiOS/nofx.git && cd nofx
+git clone https://github.com/JMWL66/jmwl-autotrade.git && cd nofx
 go build -o nofx && ./nofx          # backend
 cd web && npm install && npm run dev  # frontend (new terminal)
 ```
@@ -205,7 +205,7 @@ cd web && npm install && npm run dev  # frontend (new terminal)
 ### Update
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 ---
@@ -230,7 +230,7 @@ Everything through the web UI at **http://127.0.0.1:3000**.
 
 **HTTP (quick):**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 # Access via http://YOUR_IP:3000
 ```
 
@@ -289,7 +289,7 @@ See [Contributing Guide](CONTRIBUTING.md) · [Code of Conduct](CODE_OF_CONDUCT.m
 
 All contributions are tracked. When NOFX generates revenue, contributors receive airdrops.
 
-**[Pinned Issues](https://github.com/NoFxAiOS/nofx/issues) get the highest rewards.**
+**[Pinned Issues](https://github.com/JMWL66/jmwl-autotrade/issues) get the highest rewards.**
 
 | Contribution | Weight |
 |:-------------|:------:|
@@ -336,4 +336,4 @@ All contributions are tracked. When NOFX generates revenue, contributors receive
 
 [AGPL-3.0](LICENSE)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NoFxAiOS/nofx&type=Date)](https://star-history.com/#NoFxAiOS/nofx&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=JMWL66/jmwl-autotrade&type=Date)](https://star-history.com/#JMWL66/jmwl-autotrade&Date)

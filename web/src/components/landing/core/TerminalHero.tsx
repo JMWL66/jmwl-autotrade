@@ -292,7 +292,7 @@ export default function TerminalHero() {
 import { OFFICIAL_LINKS } from '../../../constants/branding'
 
 function CommunityStats() {
-    const { stars, forks, contributors, isLoading, error } = useGitHubStats('JMWL66', 'nofx')
+    const { stars, forks, contributors, isLoading, error } = useGitHubStats('JMWL66', 'jmwl-autotrade')
 
     const stats = [
         {

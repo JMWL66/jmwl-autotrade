@@ -3,7 +3,7 @@
 # NOFX Stable Release Installation Script
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/release/stable/install-stable.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/release/stable/install-stable.sh | bash
 #
 
 set -e
@@ -16,7 +16,7 @@ NC='\033[0m'
 
 INSTALL_DIR="${1:-$HOME/nofx}"
 COMPOSE_FILE="docker-compose.stable.yml"
-GITHUB_RAW="https://raw.githubusercontent.com/NoFxAiOS/nofx/release/stable"
+GITHUB_RAW="https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/release/stable"
 
 echo -e "${BLUE}"
 echo "╔════════════════════════════════════════════════════════════╗"

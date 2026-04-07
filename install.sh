@@ -1,13 +1,13 @@
 #!/bin/bash
 #
 # NOFX One-Click Installation Script
-# https://github.com/NoFxAiOS/nofx
+# https://github.com/JMWL66/jmwl-autotrade
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 #
 # Or with custom directory:
-#   curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash -s -- /opt/nofx
+#   curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash -s -- /opt/nofx
 #
 
 set -e
@@ -22,7 +22,7 @@ NC='\033[0m' # No Color
 # Default installation directory
 INSTALL_DIR="${1:-$HOME/nofx}"
 COMPOSE_FILE="docker-compose.prod.yml"
-GITHUB_RAW="https://raw.githubusercontent.com/NoFxAiOS/nofx/main"
+GITHUB_RAW="https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main"
 
 echo -e "${BLUE}"
 echo "╔════════════════════════════════════════════════════════════╗"
@@ -251,7 +251,7 @@ print_success() {
     echo -e "║  💡 Keep Updated: Run this command daily to stay current   ║"
     echo -e "╚════════════════════════════════════════════════════════════╝${NC}"
     echo ""
-    echo -e "  ${GREEN}curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash${NC}"
+    echo -e "  ${GREEN}curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash${NC}"
     echo ""
     echo -e "  Updates are frequent. This one-liner pulls the latest"
     echo -e "  official images and restarts services automatically."

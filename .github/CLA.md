@@ -6,7 +6,7 @@ Thank you for your interest in contributing to NOFX. This Contributor License Ag
 
 - **"Contribution"** means any code, documentation, or other original work submitted to the Project.
 - **"You"** means the individual or entity submitting the Contribution.
-- **"Project"** means NOFX (https://github.com/NoFxAiOS/nofx).
+- **"Project"** means NOFX (https://github.com/JMWL66/jmwl-autotrade).
 
 ## 2. Grant of Rights
 

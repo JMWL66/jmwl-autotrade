@@ -83,7 +83,7 @@ If you prefer to do it manually:
 
 ```bash
 # Add upstream if not already added
-git remote add upstream https://github.com/NoFxAiOS/nofx.git
+git remote add upstream https://github.com/JMWL66/jmwl-autotrade.git
 
 # Fetch latest changes
 git fetch upstream
@@ -255,7 +255,7 @@ If the migration script doesn't work:
 **Stuck on migration?**
 - Comment on your PR
 - Ask in [Telegram](https://t.me/nofx_dev_community)
-- Open a [Discussion](https://github.com/NoFxAiOS/nofx/discussions)
+- Open a [Discussion](https://github.com/JMWL66/jmwl-autotrade/discussions)
 
 **We're here to help you succeed!** 🚀
 

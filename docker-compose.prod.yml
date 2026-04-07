@@ -2,10 +2,10 @@
 # 用户部署专用 - 使用官方预构建镜像
 #
 # 一键部署命令:
-# curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+# curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 #
 # 或手动部署:
-# curl -O https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+# curl -O https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 # docker compose -f docker-compose.prod.yml up -d
 
 services:

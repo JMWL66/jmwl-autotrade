@@ -2,7 +2,7 @@
 
 **Report Date**: December 20, 2025
 **Reporting Party**: NOFX Open Source Community
-**Project URL**: https://github.com/NoFxAiOS/nofx
+**Project URL**: https://github.com/JMWL66/jmwl-autotrade
 **Accused Party**: ChainOpera (COAI)
 **License Involved**: GNU Affero General Public License v3.0 (AGPL-3.0)
 
@@ -199,7 +199,7 @@ Anyone can verify the authenticity of the evidence with the following commands:
 
 ```bash
 # Clone the repository
-git clone https://github.com/NoFxAiOS/nofx.git
+git clone https://github.com/JMWL66/jmwl-autotrade.git
 cd nofx
 
 # Verify AGPL license effective date
@@ -306,7 +306,7 @@ ChainOpera's website `trading-test.chainopera.ai` Login page HTML contains **"No
 
 For any questions, please contact:
 
-- **GitHub Issues**: https://github.com/NoFxAiOS/nofx/issues
+- **GitHub Issues**: https://github.com/JMWL66/jmwl-autotrade/issues
 - **Email**: contact@vergex.trade
 
 ---

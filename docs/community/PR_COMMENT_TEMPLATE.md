@@ -49,8 +49,8 @@ git push origin <your-branch-name>
 
 ### 📖 Learn More
 
-- [Migration Announcement](https://github.com/NoFxAiOS/nofx/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md)
-- [Contributing Guidelines](https://github.com/NoFxAiOS/nofx/blob/dev/CONTRIBUTING.md)
+- [Migration Announcement](https://github.com/JMWL66/jmwl-autotrade/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md)
+- [Contributing Guidelines](https://github.com/JMWL66/jmwl-autotrade/blob/dev/CONTRIBUTING.md)
 
 ### ❓ Questions?
 
@@ -108,8 +108,8 @@ git push origin <your-branch-name>
 
 ### 📖 了解更多
 
-- [迁移公告](https://github.com/NoFxAiOS/nofx/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.zh-CN.md)
-- [贡献指南](https://github.com/NoFxAiOS/nofx/blob/dev/docs/i18n/zh-CN/CONTRIBUTING.md)
+- [迁移公告](https://github.com/JMWL66/jmwl-autotrade/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.zh-CN.md)
+- [贡献指南](https://github.com/JMWL66/jmwl-autotrade/blob/dev/docs/i18n/zh-CN/CONTRIBUTING.md)
 
 ### ❓ 问题？
 
@@ -136,7 +136,7 @@ We're introducing a new PR system. Your PR won't be blocked - we'll review it no
 ./scripts/pr-check.sh
 ```
 
-[Learn more](https://github.com/NoFxAiOS/nofx/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md) | This is optional!
+[Learn more](https://github.com/JMWL66/jmwl-autotrade/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md) | This is optional!
 ```
 
 ---
@@ -159,7 +159,7 @@ We're introducing a new PR system. Your PR won't be blocked - we'll review it no
 ./scripts/pr-check.sh
 \`\`\`
 
-[Learn more](https://github.com/NoFxAiOS/nofx/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md) | This is optional!"
+[Learn more](https://github.com/JMWL66/jmwl-autotrade/blob/dev/docs/community/MIGRATION_ANNOUNCEMENT.md) | This is optional!"
 
   echo "✅ Commented on PR #$pr_number"
   sleep 2  # Be nice to GitHub API

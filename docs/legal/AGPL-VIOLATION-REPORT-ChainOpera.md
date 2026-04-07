@@ -2,7 +2,7 @@
 
 **报告日期**：2025年12月20日
 **报告方**：NOFX 开源社区
-**项目地址**：https://github.com/NoFxAiOS/nofx
+**项目地址**：https://github.com/JMWL66/jmwl-autotrade
 **被指控方**：ChainOpera (COAI)
 **涉及许可证**：GNU Affero General Public License v3.0 (AGPL-3.0)
 
@@ -204,7 +204,7 @@ ChainOpera 至今未回应以下核心问题：
 
 ```bash
 # 克隆仓库
-git clone https://github.com/NoFxAiOS/nofx.git
+git clone https://github.com/JMWL66/jmwl-autotrade.git
 cd nofx
 
 # 验证 AGPL 许可证生效时间
@@ -315,7 +315,7 @@ ChainOpera 网站 `trading-test.chainopera.ai` 的 Login 页面 HTML 中包含 *
 
 如有任何问题，请联系：
 
-- **GitHub Issues**: https://github.com/NoFxAiOS/nofx/issues
+- **GitHub Issues**: https://github.com/JMWL66/jmwl-autotrade/issues
 - **Email**: contact@vergex.trade
 
 ---

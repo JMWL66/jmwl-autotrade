@@ -1482,7 +1482,7 @@ unrealized_pnl, peak_pnl_pct, margin_used, leverage, holding_duration
 
 ### 官方资源
 
-- **GitHub Issues**: https://github.com/NoFxAiOS/nofx/issues
+- **GitHub Issues**: https://github.com/JMWL66/jmwl-autotrade/issues
 - **官方文档**: 查看项目 README
 - **社区讨论**: GitHub Discussions
 

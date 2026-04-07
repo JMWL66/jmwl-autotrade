@@ -1481,7 +1481,7 @@ Chain of thought analysis
 
 ### Official Resources
 
-- **GitHub Issues**: https://github.com/NoFxAiOS/nofx/issues
+- **GitHub Issues**: https://github.com/JMWL66/jmwl-autotrade/issues
 - **Official Documentation**: See project README
 - **Community Discussion**: GitHub Discussions
 

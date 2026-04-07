@@ -58,7 +58,7 @@ Welcome to the NOFX documentation! This page helps you find the right documentat
 **Get Involved:**
 - 💬 [Telegram Community](https://t.me/nofx_dev_community)
 - 🐦 [Twitter @nofx_official](https://x.com/nofx_official)
-- 🐛 [Report Issues](https://github.com/NoFxAiOS/nofx/issues)
+- 🐛 [Report Issues](https://github.com/JMWL66/jmwl-autotrade/issues)
 
 ---
 
@@ -122,8 +122,8 @@ Welcome to the NOFX documentation! This page helps you find the right documentat
 
 ### I want to...
 - 🚀 **Get started quickly** → [Getting Started](getting-started/README.md) / [快速开始](getting-started/README.zh-CN.md)
-- 🐛 **Report a bug** → [GitHub Issues](https://github.com/NoFxAiOS/nofx/issues/new)
-- 💡 **Suggest a feature** → [Feature Request](https://github.com/NoFxAiOS/nofx/issues/new?template=feature_request.md)
+- 🐛 **Report a bug** → [GitHub Issues](https://github.com/JMWL66/jmwl-autotrade/issues/new)
+- 💡 **Suggest a feature** → [Feature Request](https://github.com/JMWL66/jmwl-autotrade/issues/new?template=feature_request.md)
 - 🔒 **Report security issue** → [Security Policy](../SECURITY.md)
 - 💰 **Claim a bounty** → [Bounty Guide](community/bounty-guide.md)
 - 🤝 **Contribute code** → [Contributing Guide](../CONTRIBUTING.md)
@@ -165,7 +165,7 @@ Welcome to the NOFX documentation! This page helps you find the right documentat
 1. **Search GitHub Issues** - Someone might have asked already
 2. **Join Telegram** - [NOFX Developer Community](https://t.me/nofx_dev_community)
 3. **Ask on Twitter** - Mention [@nofx_official](https://x.com/nofx_official)
-4. **Create an Issue** - [New Issue](https://github.com/NoFxAiOS/nofx/issues/new)
+4. **Create an Issue** - [New Issue](https://github.com/JMWL66/jmwl-autotrade/issues/new)
 
 ---
 

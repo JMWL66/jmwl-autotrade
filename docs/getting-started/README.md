@@ -115,7 +115,7 @@ For single-tenant/self-hosted usage, you can enable strict admin-only access:
 **Need more help?**
 - 📖 [FAQ](../guides/faq.zh-CN.md)
 - 💬 [Telegram Community](https://t.me/nofx_dev_community)
-- 🐛 [GitHub Issues](https://github.com/NoFxAiOS/nofx/issues)
+- 🐛 [GitHub Issues](https://github.com/JMWL66/jmwl-autotrade/issues)
 
 ---
 

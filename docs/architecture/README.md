@@ -128,10 +128,10 @@ nofx/
 
 **Want to contribute?**
 - Read the module documentation above
-- Check [Open Issues](https://github.com/NoFxAiOS/nofx/issues)
+- Check [Open Issues](https://github.com/JMWL66/jmwl-autotrade/issues)
 - Join our community
 
-**Repository:** https://github.com/NoFxAiOS/nofx
+**Repository:** https://github.com/JMWL66/jmwl-autotrade
 
 ---
 

@@ -6,9 +6,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/NoFxAiOS/nofx/stargazers"><img src="https://img.shields.io/github/stars/NoFxAiOS/nofx?style=for-the-badge" alt="Stars"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/releases"><img src="https://img.shields.io/github/v/release/NoFxAiOS/nofx?style=for-the-badge" alt="Release"></a>
-  <a href="https://github.com/NoFxAiOS/nofx/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/stargazers"><img src="https://img.shields.io/github/stars/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/releases"><img src="https://img.shields.io/github/v/release/JMWL66/jmwl-autotrade?style=for-the-badge" alt="Release"></a>
+  <a href="https://github.com/JMWL66/jmwl-autotrade/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-AGPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
   <a href="https://t.me/nofx_dev_community"><img src="https://img.shields.io/badge/Telegram-Community-blue?style=for-the-badge&logo=telegram" alt="Telegram"></a>
 </p>
 
@@ -40,7 +40,7 @@ NOFX 是一个开源的**自主式** AI 交易助手。与需要手动配置模�
 核心差异：**内置 [x402](https://x402.org) 微支付协议**。无需 API Key，充值 USDC 钱包即可按需付费。钱包就是你的身份。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 打开 **http://127.0.0.1:3000**，完成。
@@ -126,7 +126,7 @@ x402 流程：
 ### Linux / macOS
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 ### Railway (云部署)
@@ -136,7 +136,7 @@ curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bas
 ### Docker
 
 ```bash
-curl -O https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+curl -O https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -145,7 +145,7 @@ docker compose -f docker-compose.prod.yml up -d
 安装 [Docker Desktop](https://www.docker.com/products/docker-desktop/)，然后：
 
 ```powershell
-curl -o docker-compose.prod.yml https://raw.githubusercontent.com/NoFxAiOS/nofx/main/docker-compose.prod.yml
+curl -o docker-compose.prod.yml https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/docker-compose.prod.yml
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -156,7 +156,7 @@ docker compose -f docker-compose.prod.yml up -d
 # macOS: brew install ta-lib
 # Ubuntu: sudo apt-get install libta-lib0-dev
 
-git clone https://github.com/NoFxAiOS/nofx.git && cd nofx
+git clone https://github.com/JMWL66/jmwl-autotrade.git && cd nofx
 go build -o nofx && ./nofx          # 后端
 cd web && npm install && npm run dev  # 前端 (新终端)
 ```
@@ -164,7 +164,7 @@ cd web && npm install && npm run dev  # 前端 (新终端)
 ### 更新
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/JMWL66/jmwl-autotrade/main/install.sh | bash
 ```
 
 ---
@@ -204,7 +204,7 @@ curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bas
 
 所有贡献在 GitHub 上追踪。当 NOFX 产生收入时，贡献者将获得空投。
 
-**解决 [置顶 Issue](https://github.com/NoFxAiOS/nofx/issues) 的 PR 获得最高奖励！**
+**解决 [置顶 Issue](https://github.com/JMWL66/jmwl-autotrade/issues) 的 PR 获得最高奖励！**
 
 | 贡献类型 | 权重 |
 |:-------------|:------:|
@@ -235,4 +235,4 @@ curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bas
 
 [AGPL-3.0](../../../LICENSE)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NoFxAiOS/nofx&type=Date)](https://star-history.com/#NoFxAiOS/nofx&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=JMWL66/jmwl-autotrade&type=Date)](https://star-history.com/#JMWL66/jmwl-autotrade&Date)
