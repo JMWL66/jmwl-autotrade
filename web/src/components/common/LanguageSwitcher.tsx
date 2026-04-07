@@ -21,7 +21,7 @@ export function LanguageSwitcher() {
           onClick={() => setLanguage(code)}
           className={`px-2.5 py-1 rounded text-xs font-semibold transition-all ${
             language === code
-              ? 'bg-nofx-gold/15 text-nofx-gold'
+              ? 'bg-jmwl-gold/15 text-jmwl-gold'
               : 'text-zinc-500 hover:text-zinc-300 bg-transparent'
           }`}
         >

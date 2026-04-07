@@ -10,8 +10,8 @@ const agents = [
         apy: "142%",
         winRate: "68%",
         risk: "高",
-        color: "text-nofx-gold",
-        border: "border-nofx-gold/50",
+        color: "text-jmwl-gold",
+        border: "border-jmwl-gold/50",
         bg_glow: "shadow-[0_0_30px_rgba(240,185,11,0.1)]",
         icon: Zap
     },
@@ -53,7 +53,7 @@ export default function AgentGrid() {
     }
 
     return (
-        <section id="market-scanner" className="py-16 md:py-24 bg-nofx-bg relative overflow-hidden">
+        <section id="market-scanner" className="py-16 md:py-24 bg-jmwl-bg relative overflow-hidden">
 
             {/* Background Details */}
             <div className="absolute top-0 right-0 p-10 opacity-20 pointer-events-none">
@@ -64,11 +64,11 @@ export default function AgentGrid() {
 
                 <div className="flex flex-col md:flex-row justify-between items-end mb-10 md:mb-16 gap-6">
                     <div>
-                        <div className="flex items-center gap-2 text-nofx-gold font-mono text-xs mb-2 tracking-widest uppercase">
+                        <div className="flex items-center gap-2 text-jmwl-gold font-mono text-xs mb-2 tracking-widest uppercase">
                             <Crosshair className="w-4 h-4" /> MARKET SELECT
                         </div>
                         <h2 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter">
-                            策略 <span className="text-transparent bg-clip-text bg-gradient-to-r from-nofx-gold to-white">单元</span>
+                            策略 <span className="text-transparent bg-clip-text bg-gradient-to-r from-jmwl-gold to-white">单元</span>
                         </h2>
                     </div>
                     <div className="font-mono text-right text-xs text-zinc-500 max-w-xs">
@@ -105,7 +105,7 @@ export default function AgentGrid() {
                                     </div>
 
                                     {/* Name & Desc */}
-                                    <h3 className="text-3xl font-bold text-white mb-2 tracking-tight group-hover:text-nofx-accent transition-colors">{agent.name}</h3>
+                                    <h3 className="text-3xl font-bold text-white mb-2 tracking-tight group-hover:text-jmwl-accent transition-colors">{agent.name}</h3>
                                     <p className="text-zinc-500 text-sm mb-8 leading-relaxed h-10">{agent.desc}</p>
 
                                     {/* Stats Grid */}
@@ -127,7 +127,7 @@ export default function AgentGrid() {
                                     {/* Action Btn */}
                                     <button
                                         onClick={handleInitialize}
-                                        className={`w-full py-4 text-xs font-bold font-mono uppercase tracking-[0.2em] border border-zinc-700 hover:border-${agent.color === 'text-nofx-gold' ? 'nofx-gold' : 'white'} hover:bg-white/5 transition-all flex items-center justify-center gap-2 group-hover:text-white cursor-pointer`}
+                                        className={`w-full py-4 text-xs font-bold font-mono uppercase tracking-[0.2em] border border-zinc-700 hover:border-${agent.color === 'text-jmwl-gold' ? 'jmwl-gold' : 'white'} hover:bg-white/5 transition-all flex items-center justify-center gap-2 group-hover:text-white cursor-pointer`}
                                     >
                                         <span className={agent.color}>[</span> 初始化 <span className={agent.color}>]</span>
                                     </button>

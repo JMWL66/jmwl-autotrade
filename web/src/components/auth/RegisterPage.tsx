@@ -121,12 +121,12 @@ export function RegisterPage() {
         <div className="mb-8 text-center">
           <div className="flex justify-center mb-6">
             <div className="relative">
-              <div className="absolute -inset-2 bg-nofx-gold/20 rounded-full blur-xl animate-pulse"></div>
-              <img src="/icons/nofx.svg" alt="NoFx Logo" className="w-16 h-16 object-contain relative z-10 opacity-90" />
+              <div className="absolute -inset-2 bg-jmwl-gold/20 rounded-full blur-xl animate-pulse"></div>
+              <img src="/icons/nofx.svg" alt="JMWL-AutoTrade Logo" className="w-16 h-16 object-contain relative z-10 opacity-90" />
             </div>
           </div>
           <h1 className="text-3xl font-bold tracking-tighter text-white uppercase mb-2">
-            <span className="text-nofx-gold">NEW_USER</span> ONBOARDING
+            <span className="text-jmwl-gold">NEW_USER</span> ONBOARDING
           </h1>
           <p className="text-zinc-500 text-xs tracking-[0.2em] uppercase">
             Initializing Registration Sequence...
@@ -170,7 +170,7 @@ export function RegisterPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-nofx-gold focus:ring-1 focus:ring-nofx-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono"
+                  className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-jmwl-gold focus:ring-1 focus:ring-jmwl-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono"
                   placeholder="user@nofx.os"
                   required
                 />
@@ -184,7 +184,7 @@ export function RegisterPage() {
                       type={showPassword ? 'text' : 'password'}
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
-                      className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-nofx-gold focus:ring-1 focus:ring-nofx-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono pr-10"
+                      className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-jmwl-gold focus:ring-1 focus:ring-jmwl-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono pr-10"
                       placeholder="••••••••"
                       required
                     />
@@ -205,7 +205,7 @@ export function RegisterPage() {
                       type={showConfirmPassword ? 'text' : 'password'}
                       value={confirmPassword}
                       onChange={(e) => setConfirmPassword(e.target.value)}
-                      className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-nofx-gold focus:ring-1 focus:ring-nofx-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono pr-10"
+                      className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-jmwl-gold focus:ring-1 focus:ring-jmwl-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono pr-10"
                       placeholder="••••••••"
                       required
                     />
@@ -248,12 +248,12 @@ export function RegisterPage() {
 
               {betaMode && (
                 <div>
-                  <label className="block text-xs uppercase tracking-wider text-nofx-gold mb-1.5 ml-1 font-bold">Priority Access Code</label>
+                  <label className="block text-xs uppercase tracking-wider text-jmwl-gold mb-1.5 ml-1 font-bold">Priority Access Code</label>
                   <input
                     type="text"
                     value={betaCode}
                     onChange={(e) => setBetaCode(e.target.value.replace(/[^a-z0-9]/gi, '').toLowerCase())}
-                    className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-nofx-gold focus:ring-1 focus:ring-nofx-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono tracking-widest"
+                    className="w-full bg-black/50 border border-zinc-700 rounded px-4 py-3 text-sm focus:border-jmwl-gold focus:ring-1 focus:ring-jmwl-gold/50 outline-none transition-all placeholder-zinc-800 text-white font-mono tracking-widest"
                     placeholder="XXXXXX"
                     maxLength={6}
                     required={betaMode}
@@ -271,7 +271,7 @@ export function RegisterPage() {
               <button
                 type="submit"
                 disabled={loading || (betaMode && !betaCode.trim()) || !passwordValid}
-                className="w-full bg-nofx-gold text-black font-bold py-3 px-4 rounded text-sm tracking-wide uppercase hover:bg-yellow-400 transition-all transform active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed font-mono shadow-[0_0_15px_rgba(255,215,0,0.1)] hover:shadow-[0_0_25px_rgba(255,215,0,0.25)] flex items-center justify-center gap-2 group mt-4"
+                className="w-full bg-jmwl-gold text-black font-bold py-3 px-4 rounded text-sm tracking-wide uppercase hover:bg-yellow-400 transition-all transform active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed font-mono shadow-[0_0_15px_rgba(255,215,0,0.1)] hover:shadow-[0_0_25px_rgba(255,215,0,0.25)] flex items-center justify-center gap-2 group mt-4"
               >
                 {loading ? (
                   <span className="animate-pulse">INITIALIZING...</span>
@@ -296,7 +296,7 @@ export function RegisterPage() {
             EXISTING_OPERATOR?{' '}
             <button
               onClick={() => (window.location.href = '/login')}
-              className="text-nofx-gold hover:underline hover:text-yellow-300 transition-colors ml-1 uppercase"
+              className="text-jmwl-gold hover:underline hover:text-yellow-300 transition-colors ml-1 uppercase"
             >
               ACCESS TERMINAL
             </button>

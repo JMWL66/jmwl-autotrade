@@ -42,7 +42,7 @@ export default function AgentTerminal() {
                     <div className="flex items-center justify-between mb-3">
                         <span className="text-zinc-500 text-xs font-mono uppercase tracking-wider">组合收益</span>
                         <div className="flex gap-1">
-                            <button className="px-2 py-0.5 bg-nofx-gold/20 border border-nofx-gold/30 rounded text-[10px] text-nofx-gold font-mono">24H</button>
+                            <button className="px-2 py-0.5 bg-jmwl-gold/20 border border-jmwl-gold/30 rounded text-[10px] text-jmwl-gold font-mono">24H</button>
                             <button className="px-2 py-0.5 text-[10px] text-zinc-600 font-mono hover:text-zinc-400 transition-colors">7D</button>
                             <button className="px-2 py-0.5 text-[10px] text-zinc-600 font-mono hover:text-zinc-400 transition-colors">30D</button>
                         </div>
@@ -101,7 +101,7 @@ export default function AgentTerminal() {
                 <div className="p-4 border-b border-zinc-800/40">
                     <div className="flex items-center justify-between mb-3">
                         <span className="text-zinc-400 text-xs font-mono uppercase tracking-wider">订单簿</span>
-                        <span className="text-zinc-600 text-[10px] font-mono">价差: <span className="text-nofx-gold">0.02%</span></span>
+                        <span className="text-zinc-600 text-[10px] font-mono">价差: <span className="text-jmwl-gold">0.02%</span></span>
                     </div>
                     <div className="grid grid-cols-2 gap-3">
                         {/* Asks */}

@@ -26,7 +26,7 @@ export interface FAQCategory {
 
 /**
  * FAQ Data Configuration
- * Comprehensive FAQ covering all aspects of NOFX
+ * Comprehensive FAQ covering all aspects of JMWL-AutoTrade
  *
  * Categories:
  * 1. Getting Started - Basic concepts and overview
@@ -47,8 +47,8 @@ export const faqCategories: FAQCategory[] = [
     items: [
       {
         id: 'what-is-nofx',
-        questionKey: 'faqWhatIsNOFX',
-        answerKey: 'faqWhatIsNOFXAnswer',
+        questionKey: 'faqWhatIsJMWL-AutoTrade',
+        answerKey: 'faqWhatIsJMWL-AutoTradeAnswer',
       },
       {
         id: 'how-does-it-work',
@@ -111,8 +111,8 @@ export const faqCategories: FAQCategory[] = [
       },
       {
         id: 'update-nofx',
-        questionKey: 'faqUpdateNOFX',
-        answerKey: 'faqUpdateNOFXAnswer',
+        questionKey: 'faqUpdateJMWL-AutoTrade',
+        answerKey: 'faqUpdateJMWL-AutoTradeAnswer',
       },
     ],
   },
@@ -276,9 +276,9 @@ export const faqCategories: FAQCategory[] = [
         answerKey: 'faqSecurityBestPracticesAnswer',
       },
       {
-        id: 'can-nofx-steal-funds',
-        questionKey: 'faqCanNOFXStealFunds',
-        answerKey: 'faqCanNOFXStealFundsAnswer',
+        id: 'can-jmwl-steal-funds',
+        questionKey: 'faqCanJMWL-AutoTradeStealFunds',
+        answerKey: 'faqCanJMWL-AutoTradeStealFundsAnswer',
       },
     ],
   },

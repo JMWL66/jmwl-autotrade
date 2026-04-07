@@ -8,7 +8,7 @@ interface DeepVoidBackgroundProps extends React.HTMLAttributes<HTMLDivElement> {
 
 export function DeepVoidBackground({ children, className = '', disableAnimation = false, ...props }: DeepVoidBackgroundProps) {
     return (
-        <div className={`relative w-full min-h-screen bg-nofx-bg text-nofx-text overflow-hidden flex flex-col ${className}`} {...props}>
+        <div className={`relative w-full min-h-screen bg-jmwl-bg text-jmwl-text overflow-hidden flex flex-col ${className}`} {...props}>
             {/* Background layers: use a much lighter static stack when animations are disabled */}
             {disableAnimation ? (
                 <>
@@ -28,8 +28,8 @@ export function DeepVoidBackground({ children, className = '', disableAnimation 
 
                     {/* 3. Ambient Glow Spots */}
                     <div className="absolute inset-0 overflow-hidden pointer-events-none fixed z-0">
-                        <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-nofx-gold/10 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow"></div>
-                        <div className="absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-nofx-accent/5 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
+                        <div className="absolute top-[-10%] left-[-10%] w-[40vw] h-[40vw] bg-jmwl-gold/10 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow"></div>
+                        <div className="absolute bottom-[-10%] right-[-10%] w-[40vw] h-[40vw] bg-jmwl-accent/5 rounded-full blur-[120px] mix-blend-screen animate-pulse-slow" style={{ animationDelay: '2s' }}></div>
                     </div>
 
                     {/* 4. CRT/Scanline Overlay */}

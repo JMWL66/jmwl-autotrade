@@ -102,9 +102,9 @@ export function ConfigStatusGrid({
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
       {/* AI Models Card */}
-      <div className="nofx-glass rounded-lg border border-white/5 overflow-hidden">
+      <div className="jmwl-glass rounded-lg border border-white/5 overflow-hidden">
         <div className="px-4 py-3 border-b border-white/5 bg-black/20 flex items-center gap-2 backdrop-blur-sm">
-          <Brain className="w-4 h-4 text-nofx-gold" />
+          <Brain className="w-4 h-4 text-jmwl-gold" />
           <h3 className="text-sm font-mono tracking-widest text-zinc-300 uppercase">
             {t('aiModels', language)}
           </h3>
@@ -132,7 +132,7 @@ export function ConfigStatusGrid({
                   </div>
 
                   <div className="min-w-0">
-                    <div className="font-mono text-sm text-zinc-200 group-hover:text-nofx-gold transition-colors">
+                    <div className="font-mono text-sm text-zinc-200 group-hover:text-jmwl-gold transition-colors">
                       {getShortName(model.name)}
                     </div>
                     <div className="text-[10px] text-zinc-500 font-mono flex items-center gap-2">
@@ -183,9 +183,9 @@ export function ConfigStatusGrid({
       </div>
 
       {/* Exchanges Card */}
-      <div className="nofx-glass rounded-lg border border-white/5 overflow-hidden">
+      <div className="jmwl-glass rounded-lg border border-white/5 overflow-hidden">
         <div className="px-4 py-3 border-b border-white/5 bg-black/20 flex items-center gap-2 backdrop-blur-sm">
-          <Landmark className="w-4 h-4 text-nofx-gold" />
+          <Landmark className="w-4 h-4 text-jmwl-gold" />
           <h3 className="text-sm font-mono tracking-widest text-zinc-300 uppercase">
             {t('exchanges', language)}
           </h3>
@@ -213,7 +213,7 @@ export function ConfigStatusGrid({
                   </div>
 
                   <div className="min-w-0">
-                    <div className="font-mono text-sm text-zinc-200 group-hover:text-nofx-gold transition-colors truncate">
+                    <div className="font-mono text-sm text-zinc-200 group-hover:text-jmwl-gold transition-colors truncate">
                       {exchange.exchange_type?.toUpperCase() || getShortName(exchange.name)}
                       <span className="text-[10px] text-zinc-500 ml-2 border border-zinc-800 px-1 rounded">
                         {exchange.account_name || 'DEFAULT'}
@@ -258,7 +258,7 @@ export function ConfigStatusGrid({
                         </button>
                         <button
                           onClick={(e) => { e.stopPropagation(); onCopyAddress(`exchange-${exchange.id}`, walletAddr) }}
-                          className="text-zinc-600 hover:text-nofx-gold"
+                          className="text-zinc-600 hover:text-jmwl-gold"
                         >
                           {isCopied ? <Check size={10} className="text-green-500" /> : <Copy size={10} />}
                         </button>

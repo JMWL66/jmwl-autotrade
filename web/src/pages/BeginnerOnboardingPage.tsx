@@ -98,12 +98,12 @@ export function BeginnerOnboardingPage() {
         <div className="w-full max-w-[1120px]">
           <div className="mb-5 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div className="flex items-center gap-4">
-              <div className="flex h-14 w-14 items-center justify-center rounded-[22px] border border-nofx-gold/20 bg-nofx-gold/8 text-nofx-gold shadow-[0_0_30px_rgba(240,185,11,0.12)]">
+              <div className="flex h-14 w-14 items-center justify-center rounded-[22px] border border-jmwl-gold/20 bg-jmwl-gold/8 text-jmwl-gold shadow-[0_0_30px_rgba(240,185,11,0.12)]">
                 <Shield className="h-6 w-6" />
               </div>
               <div>
                 <div
-                  className={`font-semibold uppercase text-nofx-gold/80 ${
+                  className={`font-semibold uppercase text-jmwl-gold/80 ${
                     isZh ? 'text-[11px] tracking-[0.34em]' : 'text-[10px] tracking-[0.2em]'
                   }`}
                 >
@@ -177,7 +177,7 @@ export function BeginnerOnboardingPage() {
                 <section className="border-t border-white/8 px-8 py-7 lg:border-l lg:border-t-0 lg:px-9">
                   <div className="space-y-5">
                     <div>
-                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-nofx-gold">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-jmwl-gold">
                         <Wallet className="h-4 w-4" />
                         <span>{isZh ? '钱包地址' : 'Wallet address'}</span>
                       </div>
@@ -197,19 +197,19 @@ export function BeginnerOnboardingPage() {
                     </div>
 
                     <div className="pt-1">
-                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-nofx-gold">
+                      <div className="mb-3 flex items-center gap-2 text-sm font-medium text-jmwl-gold">
                         <Shield className="h-4 w-4" />
                         <span>{isZh ? '私钥，请立即备份' : 'Private key, back it up now'}</span>
                       </div>
                       <div className="flex items-stretch gap-3">
-                        <div className="min-w-0 flex-1 rounded-[24px] border border-nofx-gold/20 bg-[linear-gradient(180deg,rgba(32,25,7,0.44),rgba(14,10,3,0.28))] px-5 py-3 font-mono text-[13px] leading-6 text-amber-100 shadow-[0_0_0_1px_rgba(240,185,11,0.05)]">
+                        <div className="min-w-0 flex-1 rounded-[24px] border border-jmwl-gold/20 bg-[linear-gradient(180deg,rgba(32,25,7,0.44),rgba(14,10,3,0.28))] px-5 py-3 font-mono text-[13px] leading-6 text-amber-100 shadow-[0_0_0_1px_rgba(240,185,11,0.05)]">
                           <div className="overflow-x-auto whitespace-nowrap">{data.private_key}</div>
                         </div>
                         <div className="flex shrink-0 flex-col justify-end">
                           <button
                             type="button"
                             onClick={() => copyText(data.private_key, isZh ? '私钥' : 'Private key')}
-                            className="inline-flex h-14 w-14 items-center justify-center rounded-2xl border border-nofx-gold/20 bg-nofx-gold/10 text-nofx-gold transition hover:bg-nofx-gold/15"
+                            className="inline-flex h-14 w-14 items-center justify-center rounded-2xl border border-jmwl-gold/20 bg-jmwl-gold/10 text-jmwl-gold transition hover:bg-jmwl-gold/15"
                             aria-label={isZh ? '复制私钥' : 'Copy private key'}
                           >
                             <Copy className="h-5 w-5" />
@@ -242,7 +242,7 @@ export function BeginnerOnboardingPage() {
                     <button
                       type="button"
                       onClick={handleContinue}
-                      className={`mt-1 flex w-full items-center justify-center gap-3 rounded-[24px] bg-nofx-gold px-5 py-3.5 font-bold text-black shadow-[0_10px_40px_rgba(240,185,11,0.22)] transition hover:bg-yellow-400 ${
+                      className={`mt-1 flex w-full items-center justify-center gap-3 rounded-[24px] bg-jmwl-gold px-5 py-3.5 font-bold text-black shadow-[0_10px_40px_rgba(240,185,11,0.22)] transition hover:bg-yellow-400 ${
                         isZh ? 'text-[20px]' : 'text-[16px] sm:text-[18px]'
                       }`}
                     >

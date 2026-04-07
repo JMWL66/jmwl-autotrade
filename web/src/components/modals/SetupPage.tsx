@@ -9,7 +9,7 @@ import { LanguageSwitcher } from '../common/LanguageSwitcher'
 
 const labels = {
   zh: {
-    welcome: '欢迎使用 NOFX',
+    welcome: '欢迎使用 JMWL-AutoTrade',
     subtitle: '创建账号开始使用',
     email: '邮箱',
     emailPlaceholder: 'you@example.com',
@@ -22,7 +22,7 @@ const labels = {
     singleUser: '单用户系统 — 这是唯一的账号',
   },
   en: {
-    welcome: 'Welcome to NOFX',
+    welcome: 'Welcome to JMWL-AutoTrade',
     subtitle: 'Create your account to get started',
     email: 'Email',
     emailPlaceholder: 'you@example.com',
@@ -35,7 +35,7 @@ const labels = {
     singleUser: 'Single-user system — this is the only account',
   },
   id: {
-    welcome: 'Selamat Datang di NOFX',
+    welcome: 'Selamat Datang di JMWL-AutoTrade',
     subtitle: 'Buat akun untuk memulai',
     email: 'Email',
     emailPlaceholder: 'you@example.com',
@@ -98,7 +98,7 @@ export function SetupPage() {
 
       {/* Glow spots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-[10%] left-[15%] w-[500px] h-[500px] bg-nofx-gold/8 rounded-full blur-[150px]" />
+        <div className="absolute top-[10%] left-[15%] w-[500px] h-[500px] bg-jmwl-gold/8 rounded-full blur-[150px]" />
         <div className="absolute bottom-[5%] right-[10%] w-[400px] h-[400px] bg-indigo-500/6 rounded-full blur-[140px]" />
         <div className="absolute top-[40%] right-[30%] w-[300px] h-[300px] bg-emerald-500/4 rounded-full blur-[120px]" />
       </div>
@@ -137,8 +137,8 @@ export function SetupPage() {
           <div className="text-center mb-8">
             <div className="flex justify-center mb-4">
               <div className="relative">
-                <div className="absolute -inset-4 bg-nofx-gold/20 rounded-full blur-2xl" />
-                <img src="/icons/nofx.svg" alt="NOFX" className="w-14 h-14 relative z-10 drop-shadow-[0_0_15px_rgba(240,185,11,0.3)]" />
+                <div className="absolute -inset-4 bg-jmwl-gold/20 rounded-full blur-2xl" />
+                <img src="/icons/nofx.svg" alt="JMWL-AutoTrade" className="w-14 h-14 relative z-10 drop-shadow-[0_0_15px_rgba(240,185,11,0.3)]" />
               </div>
             </div>
             <h1 className="text-2xl font-bold text-white mb-1.5">{l.welcome}</h1>
@@ -156,7 +156,7 @@ export function SetupPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-nofx-gold/60 focus:ring-1 focus:ring-nofx-gold/30 transition-all"
+                  className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-jmwl-gold/60 focus:ring-1 focus:ring-jmwl-gold/30 transition-all"
                   placeholder={l.emailPlaceholder}
                   required
                   autoFocus
@@ -171,7 +171,7 @@ export function SetupPage() {
                     type={showPassword ? 'text' : 'password'}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-nofx-gold/60 focus:ring-1 focus:ring-nofx-gold/30 transition-all"
+                    className="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-jmwl-gold/60 focus:ring-1 focus:ring-jmwl-gold/30 transition-all"
                     placeholder={l.passwordPlaceholder}
                     required
                   />
@@ -202,7 +202,7 @@ export function SetupPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-nofx-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-2 shadow-[0_0_20px_rgba(240,185,11,0.2)]"
+                className="w-full bg-jmwl-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-2 shadow-[0_0_20px_rgba(240,185,11,0.2)]"
               >
                 {loading ? l.submitting : l.submit}
               </button>

@@ -398,7 +398,7 @@ export function ComparisonChart({ traders }: ComparisonChartProps) {
           fontFamily: 'monospace',
           letterSpacing: '0.1em',
         }}>
-          NOFX
+          JMWL-AutoTrade
         </div>
 
         <ResponsiveContainer width="100%" height={420}>

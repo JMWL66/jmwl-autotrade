@@ -72,7 +72,7 @@ export function TokenEstimateBar({ config, language, onTokenCountChange }: Token
 
   if (isLoading && !estimate) {
     return (
-      <div className="flex items-center gap-1.5 text-xs text-nofx-text-muted">
+      <div className="flex items-center gap-1.5 text-xs text-jmwl-text-muted">
         <Loader2 className="w-3 h-3 animate-spin" />
         <span>{tr('tokenEstimating')}</span>
       </div>
@@ -111,8 +111,8 @@ export function TokenEstimateBar({ config, language, onTokenCountChange }: Token
           {isLoading ? <Loader2 className="w-3 h-3 animate-spin inline" /> : `${pct}%`}
         </span>
         <div className="relative group">
-          <Info className="w-3 h-3 text-nofx-text-muted cursor-help" />
-          <div className="absolute bottom-full right-0 mb-1.5 px-2.5 py-1.5 rounded-lg text-[10px] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 bg-nofx-bg-lighter border border-nofx-border text-nofx-text-muted shadow-lg">
+          <Info className="w-3 h-3 text-jmwl-text-muted cursor-help" />
+          <div className="absolute bottom-full right-0 mb-1.5 px-2.5 py-1.5 rounded-lg text-[10px] whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 bg-jmwl-bg-lighter border border-jmwl-border text-jmwl-text-muted shadow-lg">
             {tr('tokenTooltip')} (~{estimate.total.toLocaleString()} / 200K)
           </div>
         </div>

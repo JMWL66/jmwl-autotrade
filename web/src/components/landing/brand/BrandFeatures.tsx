@@ -39,7 +39,7 @@ export default function BrandFeatures() {
         <section id="features" className="py-24 bg-zinc-950 relative">
             <div className="max-w-[1920px] mx-auto px-6 lg:px-16">
 
-                <div className="mb-16 border-l-4 border-nofx-gold pl-6">
+                <div className="mb-16 border-l-4 border-jmwl-gold pl-6">
                     <h2 className="text-4xl md:text-5xl font-black text-white uppercase tracking-tighter mb-4">
                         Core Protocol <span className="text-zinc-600">Specs</span>
                     </h2>
@@ -62,7 +62,7 @@ export default function BrandFeatures() {
                                 <f.icon size={100} />
                             </div>
 
-                            <f.icon className="w-10 h-10 text-nofx-gold mb-6" />
+                            <f.icon className="w-10 h-10 text-jmwl-gold mb-6" />
 
                             <h3 className="text-xl font-bold text-white mb-3 uppercase flex items-center gap-2">
                                 {f.title}
@@ -72,7 +72,7 @@ export default function BrandFeatures() {
                                 {f.description}
                             </p>
 
-                            <div className="absolute bottom-0 left-0 w-full h-1 bg-nofx-gold transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
+                            <div className="absolute bottom-0 left-0 w-full h-1 bg-jmwl-gold transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300" />
                         </motion.div>
                     ))}
                 </div>

@@ -25,7 +25,7 @@ const generateLog = (id: number): LogEntry => {
             break;
         case 'ARB':
             msg = `Spread detected: BINANCE <> BYBIT (${(Math.random()).toFixed(3)}%)`
-            color = 'text-nofx-gold'
+            color = 'text-jmwl-gold'
             break;
         case 'LIQ':
             msg = `Liquidation Alert: ${pairs[Math.floor(Math.random() * 4)]} $${Math.floor(Math.random() * 100)}k REKT`
@@ -74,7 +74,7 @@ export default function LiveFeed() {
                         <span className="font-bold text-zinc-400">WS_CONN: STABLE</span>
                     </div>
                     <div className="flex items-center gap-2">
-                        <span className="text-nofx-gold">TPS: 48,291</span>
+                        <span className="text-jmwl-gold">TPS: 48,291</span>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@ export default function LiveFeed() {
                             >
                                 <span className="text-zinc-600">[{log.time}]</span>
                                 <span className={`font-bold w-10 ${log.type === 'LIQ' ? 'text-red-500 bg-red-500/10 px-1 rounded' :
-                                    log.type === 'ARB' ? 'text-nofx-gold bg-nofx-gold/10 px-1 rounded' :
+                                    log.type === 'ARB' ? 'text-jmwl-gold bg-jmwl-gold/10 px-1 rounded' :
                                         log.type === 'EXE' ? 'text-green-500' : 'text-zinc-500'
                                     }`}>{log.type}</span>
                                 <span className={`${log.color}`}>{log.msg}</span>
@@ -106,7 +106,7 @@ export default function LiveFeed() {
                             <div key={log.id} className="flex gap-2 w-full truncate border-b border-zinc-900/50 pb-1 last:border-0">
                                 <span className="text-zinc-700 w-16 shrink-0">{log.time.split('.')[0]}</span>
                                 <span className={`font-bold w-8 shrink-0 ${log.type === 'LIQ' ? 'text-red-500' :
-                                    log.type === 'ARB' ? 'text-nofx-gold' :
+                                    log.type === 'ARB' ? 'text-jmwl-gold' :
                                         'text-zinc-500'
                                     }`}>{log.type}</span>
                                 <span className={`${log.color} truncate`}>{log.msg}</span>

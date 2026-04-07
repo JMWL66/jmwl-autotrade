@@ -9,7 +9,7 @@ const stats = [
 
 export default function BrandStats() {
     return (
-        <section className="bg-nofx-accent py-20 relative overflow-hidden">
+        <section className="bg-jmwl-accent py-20 relative overflow-hidden">
             {/* Halftone Pattern */}
             <div
                 className="absolute inset-0 opacity-10 pointer-events-none"
@@ -30,11 +30,11 @@ export default function BrandStats() {
                             className="relative overflow-hidden group bg-black/40 backdrop-blur-md border border-white/10 p-6 rounded-lg md:bg-transparent md:border-0 md:p-0 md:backdrop-blur-none"
                         >
                             {/* Mobile Neon Corners */}
-                            <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-nofx-gold md:hidden opacity-80 shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
-                            <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-nofx-gold md:hidden opacity-80 shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
+                            <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-jmwl-gold md:hidden opacity-80 shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
+                            <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-jmwl-gold md:hidden opacity-80 shadow-[0_0_10px_rgba(234,179,8,0.5)]"></div>
 
                             {/* Mobile Inner Glow */}
-                            <div className="absolute inset-0 bg-nofx-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none md:hidden"></div>
+                            <div className="absolute inset-0 bg-jmwl-gold/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none md:hidden"></div>
 
                             <div className="text-3xl md:text-6xl font-black text-white tracking-tighter mb-2 group-hover:scale-110 transition-transform duration-300 origin-left relative z-10">
                                 {stat.value}

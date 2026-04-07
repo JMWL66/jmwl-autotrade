@@ -79,10 +79,10 @@ export function CompetitionPage() {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-0">
             <div className="flex items-center gap-3 md:gap-4">
               <div
-                className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center bg-black/60 border border-nofx-gold/30 shadow-[0_0_15px_rgba(240,185,11,0.2)]"
+                className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center bg-black/60 border border-jmwl-gold/30 shadow-[0_0_15px_rgba(240,185,11,0.2)]"
               >
                 <Trophy
-                  className="w-6 h-6 md:w-7 md:h-7 text-nofx-gold"
+                  className="w-6 h-6 md:w-7 md:h-7 text-jmwl-gold"
                 />
               </div>
               <div>
@@ -91,7 +91,7 @@ export function CompetitionPage() {
                 >
                   {t('aiCompetition', language)}
                   <span
-                    className="text-xs font-normal px-2 py-1 rounded bg-nofx-gold/10 text-nofx-gold border border-nofx-gold/20"
+                    className="text-xs font-normal px-2 py-1 rounded bg-jmwl-gold/10 text-jmwl-gold border border-jmwl-gold/20"
                   >
                     0 {t('traders', language)}
                   </span>
@@ -135,10 +135,10 @@ export function CompetitionPage() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-0">
           <div className="flex items-center gap-3 md:gap-4">
             <div
-              className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center bg-black/60 border border-nofx-gold/30 shadow-[0_0_15px_rgba(240,185,11,0.2)]"
+              className="w-10 h-10 md:w-12 md:h-12 rounded-xl flex items-center justify-center bg-black/60 border border-jmwl-gold/30 shadow-[0_0_15px_rgba(240,185,11,0.2)]"
             >
               <Trophy
-                className="w-6 h-6 md:w-7 md:h-7 text-nofx-gold"
+                className="w-6 h-6 md:w-7 md:h-7 text-jmwl-gold"
               />
             </div>
             <div>
@@ -147,7 +147,7 @@ export function CompetitionPage() {
               >
                 {t('aiCompetition', language)}
                 <span
-                  className="text-xs font-normal px-2 py-1 rounded bg-nofx-gold/10 text-nofx-gold border border-nofx-gold/20"
+                  className="text-xs font-normal px-2 py-1 rounded bg-jmwl-gold/10 text-jmwl-gold border border-jmwl-gold/20"
                 >
                   {competition.count} {t('traders', language)}
                 </span>
@@ -162,7 +162,7 @@ export function CompetitionPage() {
               {t('leader', language)}
             </div>
             <div
-              className="text-base md:text-lg font-bold text-nofx-gold"
+              className="text-base md:text-lg font-bold text-jmwl-gold"
             >
               {leader?.trader_name}
             </div>
@@ -210,7 +210,7 @@ export function CompetitionPage() {
                 {t('leaderboard', language)}
               </h2>
               <div
-                className="text-xs px-2 py-1 rounded bg-nofx-gold/10 text-nofx-gold border border-nofx-gold/20 shadow-[0_0_8px_rgba(240,185,11,0.1)]"
+                className="text-xs px-2 py-1 rounded bg-jmwl-gold/10 text-jmwl-gold border border-jmwl-gold/20 shadow-[0_0_8px_rgba(240,185,11,0.1)]"
               >
                 {t('live', language)}
               </div>

@@ -51,14 +51,14 @@ export function OnboardingModeSelector({
               onClick={() => onChange(option.id)}
               className={`w-full rounded-xl border px-4 py-3 text-left transition-all ${
                 selected
-                  ? 'border-nofx-gold/60 bg-nofx-gold/10 shadow-[0_0_0_1px_rgba(240,185,11,0.15)]'
+                  ? 'border-jmwl-gold/60 bg-jmwl-gold/10 shadow-[0_0_0_1px_rgba(240,185,11,0.15)]'
                   : 'border-zinc-800 bg-zinc-950/60 hover:border-zinc-700'
               }`}
             >
               <div className="flex items-center gap-2 text-sm font-semibold text-white">
                 <span>{option.title}</span>
                 {option.badge ? (
-                  <span className="rounded-full bg-nofx-gold px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-black">
+                  <span className="rounded-full bg-jmwl-gold px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-black">
                     {option.badge}
                   </span>
                 ) : null}

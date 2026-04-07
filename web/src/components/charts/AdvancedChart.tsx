@@ -1158,7 +1158,7 @@ export function AdvancedChart({
           </div>
         )}
 
-        {/* NOFX watermark */}
+        {/* JMWL-AutoTrade watermark */}
         <div
           style={{
             position: 'absolute',
@@ -1179,7 +1179,7 @@ export function AdvancedChart({
               textShadow: '0 2px 30px rgba(240, 185, 11, 0.2)',
             }}
           >
-            NOFX
+            JMWL-AutoTrade
           </div>
         </div>
       </div>

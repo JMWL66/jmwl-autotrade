@@ -61,8 +61,8 @@ export function LoginPage() {
           <div className="text-center mb-10">
             <div className="flex justify-center mb-5">
               <div className="relative">
-                <div className="absolute -inset-3 bg-nofx-gold/15 rounded-full blur-2xl" />
-                <img src="/icons/nofx.svg" alt="NOFX" className="w-14 h-14 relative z-10" />
+                <div className="absolute -inset-3 bg-jmwl-gold/15 rounded-full blur-2xl" />
+                <img src="/icons/nofx.svg" alt="JMWL-AutoTrade" className="w-14 h-14 relative z-10" />
               </div>
             </div>
             <h1 className="text-2xl font-bold text-white mb-1.5">Welcome back</h1>
@@ -82,7 +82,7 @@ export function LoginPage() {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-nofx-gold/60 focus:ring-1 focus:ring-nofx-gold/30 transition-all"
+                  className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-jmwl-gold/60 focus:ring-1 focus:ring-jmwl-gold/30 transition-all"
                   placeholder="you@example.com"
                   required
                   autoFocus
@@ -98,7 +98,7 @@ export function LoginPage() {
                   <button
                     type="button"
                     onClick={() => window.location.href = '/reset-password'}
-                    className="text-xs text-zinc-500 hover:text-nofx-gold transition-colors"
+                    className="text-xs text-zinc-500 hover:text-jmwl-gold transition-colors"
                   >
                     {t('forgotPassword', language)}
                   </button>
@@ -108,7 +108,7 @@ export function LoginPage() {
                     type={showPassword ? 'text' : 'password'}
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
-                    className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-nofx-gold/60 focus:ring-1 focus:ring-nofx-gold/30 transition-all"
+                    className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-jmwl-gold/60 focus:ring-1 focus:ring-jmwl-gold/30 transition-all"
                     placeholder="••••••••"
                     required
                   />
@@ -135,7 +135,7 @@ export function LoginPage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full bg-nofx-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-2"
+                className="w-full bg-jmwl-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed mt-2"
               >
                 {loading ? t('loggingIn', language) || 'Signing in...' : t('signIn', language) || 'Sign In'}
               </button>

@@ -24,13 +24,13 @@ export default function FooterSection({ language }: FooterSectionProps) {
     resources: [
       {
         name: language === 'zh' ? '文档' : 'Documentation',
-        href: 'https://github.com/JMWL66/nofx/blob/main/README.md',
+        href: 'https://github.com/JMWL66/jmwl-autotrade/blob/main/README.md',
       },
-      { name: 'Issues', href: 'https://github.com/JMWL66/nofx/issues' },
-      { name: 'Pull Requests', href: 'https://github.com/JMWL66/nofx/pulls' },
+      { name: 'Issues', href: 'https://github.com/JMWL66/jmwl-autotrade/issues' },
+      { name: 'Pull Requests', href: 'https://github.com/JMWL66/jmwl-autotrade/pulls' },
     ],
     supporters: [
-      { name: 'Binance', href: 'https://www.binance.com/join?ref=NOFXENG' },
+      { name: 'Binance', href: 'https://www.binance.com/join?ref=JMWL-AutoTradeENG' },
       { name: 'Bybit', href: 'https://partner.bybit.com/b/83856' },
       { name: 'OKX', href: 'https://www.okx.com/join/1865360' },
       { name: 'Bitget', href: 'https://www.bitget.com/referral/register?from=referral&clacCode=c8a43172' },

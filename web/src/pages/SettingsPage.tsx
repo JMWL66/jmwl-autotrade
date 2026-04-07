@@ -287,7 +287,7 @@ export function SettingsPage() {
               onClick={() => setActiveTab(tab.key)}
               className={`flex-1 flex items-center justify-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all
                 ${activeTab === tab.key
-                  ? 'bg-nofx-gold text-black'
+                  ? 'bg-jmwl-gold text-black'
                   : 'text-zinc-400 hover:text-white'
                 }`}
             >
@@ -320,7 +320,7 @@ export function SettingsPage() {
                         : 'Beginner mode shows wallet onboarding and quickstart cards. Advanced mode keeps the original pro workflow.'}
                     </p>
                   </div>
-                  <span className="rounded-full border border-nofx-gold/20 bg-nofx-gold/10 px-3 py-1 text-xs font-semibold text-nofx-gold">
+                  <span className="rounded-full border border-jmwl-gold/20 bg-jmwl-gold/10 px-3 py-1 text-xs font-semibold text-jmwl-gold">
                     {userMode === 'beginner'
                       ? language === 'zh' ? '当前：新手模式' : 'Current: Beginner'
                       : language === 'zh' ? '当前：老手模式' : 'Current: Advanced'}
@@ -333,7 +333,7 @@ export function SettingsPage() {
                     onClick={() => handleSwitchMode('beginner')}
                     className={`rounded-2xl border px-4 py-4 text-left transition-all ${
                       userMode === 'beginner'
-                        ? 'border-nofx-gold bg-nofx-gold/10'
+                        ? 'border-jmwl-gold bg-jmwl-gold/10'
                         : 'border-zinc-800 bg-zinc-950/70 hover:border-zinc-700'
                     }`}
                   >
@@ -352,7 +352,7 @@ export function SettingsPage() {
                     onClick={() => handleSwitchMode('advanced')}
                     className={`rounded-2xl border px-4 py-4 text-left transition-all ${
                       userMode === 'advanced'
-                        ? 'border-nofx-gold bg-nofx-gold/10'
+                        ? 'border-jmwl-gold bg-jmwl-gold/10'
                         : 'border-zinc-800 bg-zinc-950/70 hover:border-zinc-700'
                     }`}
                   >
@@ -378,7 +378,7 @@ export function SettingsPage() {
                         type={showPassword ? 'text' : 'password'}
                         value={newPassword}
                         onChange={(e) => setNewPassword(e.target.value)}
-                        className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-nofx-gold/60 focus:ring-1 focus:ring-nofx-gold/30 transition-all"
+                        className="w-full bg-zinc-950/80 border border-zinc-700/80 rounded-xl px-4 py-3 pr-11 text-sm text-white placeholder-zinc-600 focus:outline-none focus:border-jmwl-gold/60 focus:ring-1 focus:ring-jmwl-gold/30 transition-all"
                         placeholder="At least 8 characters"
                         required
                       />
@@ -394,7 +394,7 @@ export function SettingsPage() {
                   <button
                     type="submit"
                     disabled={changingPassword || newPassword.length < 8}
-                    className="w-full bg-nofx-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full bg-jmwl-gold hover:bg-yellow-400 active:scale-[0.98] text-black font-semibold py-3 rounded-xl text-sm transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {changingPassword ? 'Updating...' : 'Update Password'}
                   </button>
@@ -412,7 +412,7 @@ export function SettingsPage() {
                 </p>
                 <button
                   onClick={() => { setEditingModel(null); setShowModelModal(true) }}
-                  className="flex items-center gap-1.5 text-xs font-medium bg-nofx-gold/10 hover:bg-nofx-gold/20 text-nofx-gold px-3 py-1.5 rounded-lg transition-colors"
+                  className="flex items-center gap-1.5 text-xs font-medium bg-jmwl-gold/10 hover:bg-jmwl-gold/20 text-jmwl-gold px-3 py-1.5 rounded-lg transition-colors"
                 >
                   <Plus size={14} />
                   Add Model
@@ -462,7 +462,7 @@ export function SettingsPage() {
                 </p>
                 <button
                   onClick={() => { setEditingExchange(null); setShowExchangeModal(true) }}
-                  className="flex items-center gap-1.5 text-xs font-medium bg-nofx-gold/10 hover:bg-nofx-gold/20 text-nofx-gold px-3 py-1.5 rounded-lg transition-colors"
+                  className="flex items-center gap-1.5 text-xs font-medium bg-jmwl-gold/10 hover:bg-jmwl-gold/20 text-jmwl-gold px-3 py-1.5 rounded-lg transition-colors"
                 >
                   <Plus size={14} />
                   Add Exchange
