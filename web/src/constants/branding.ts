@@ -4,7 +4,7 @@ export const OFFICIAL_LINKS = {
   youtube: 'https://www.youtube.com/@CryptoFuture2026',
   twitter: 'https://x.com/CptFtr2026',
   telegram: 'https://t.me/fXqjJaVgaKZjYjVl',
-  github: 'https://github.com/NoFxAiOS/nofx',
+  github: 'https://github.com/JMWL66/nofx',
 } as const
 
 // Brand watermark component data

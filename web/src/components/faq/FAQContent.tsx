@@ -87,7 +87,7 @@ export function FAQContent({
                       <div className="text-base">
                         {language === 'zh' ? '链接：' : 'Links:'}{' '}
                         <a
-                          href="https://github.com/orgs/NoFxAiOS/projects/3"
+                          href="https://github.com/orgs/JMWL66/projects/3"
                           target="_blank"
                           rel="noreferrer"
                           style={{ color: '#F0B90B' }}
@@ -96,7 +96,7 @@ export function FAQContent({
                         </a>
                         {'  |  '}
                         <a
-                          href="https://github.com/orgs/NoFxAiOS/projects/5"
+                          href="https://github.com/orgs/JMWL66/projects/5"
                           target="_blank"
                           rel="noreferrer"
                           style={{ color: '#F0B90B' }}
@@ -122,7 +122,7 @@ export function FAQContent({
                               分支与上游保持一致：
                               <code className="ml-2">
                                 git remote add upstream
-                                https://github.com/NoFxAiOS/nofx.git
+                                https://github.com/JMWL66/nofx.git
                               </code>
                               <br />
                               <code>git fetch upstream</code>
@@ -146,7 +146,7 @@ export function FAQContent({
                               </code>
                             </li>
                             <li>
-                              打开 PR：base 选择 <code>NoFxAiOS/nofx:dev</code>{' '}
+                              打开 PR：base 选择 <code>JMWL66/nofx:dev</code>{' '}
                               ← compare 选择{' '}
                               <code>你的用户名/nofx:feat/your-topic</code>。
                             </li>
@@ -176,7 +176,7 @@ export function FAQContent({
                               Sync your fork's <code>dev</code> with upstream:
                               <code className="ml-2">
                                 git remote add upstream
-                                https://github.com/NoFxAiOS/nofx.git
+                                https://github.com/JMWL66/nofx.git
                               </code>
                               <br />
                               <code>git fetch upstream</code>
@@ -201,7 +201,7 @@ export function FAQContent({
                               </code>
                             </li>
                             <li>
-                              Open a PR: base <code>NoFxAiOS/nofx:dev</code> ←
+                              Open a PR: base <code>JMWL66/nofx:dev</code> ←
                               compare{' '}
                               <code>your-username/nofx:feat/your-topic</code>.
                             </li>
@@ -229,7 +229,7 @@ export function FAQContent({
                             Bounty/奖金、荣誉徽章与鸣谢、优先
                             Review/合并与内测资格 等）。 可在任务中优先选择带
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/labels/bounty"
+                              href="https://github.com/JMWL66/nofx/labels/bounty"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -238,7 +238,7 @@ export function FAQContent({
                             </a>
                             的事项，或完成后提交
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
+                              href="https://github.com/JMWL66/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -254,7 +254,7 @@ export function FAQContent({
                             bounties, badges & shout-outs, priority
                             review/merge, beta access). Prefer tasks with
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/labels/bounty"
+                              href="https://github.com/JMWL66/nofx/labels/bounty"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -263,7 +263,7 @@ export function FAQContent({
                             </a>
                             , or file a
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
+                              href="https://github.com/JMWL66/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -280,7 +280,7 @@ export function FAQContent({
                       <div className="text-base">
                         {language === 'zh' ? '参考文档：' : 'References:'}{' '}
                         <a
-                          href="https://github.com/NoFxAiOS/nofx/blob/dev/CONTRIBUTING.md"
+                          href="https://github.com/JMWL66/nofx/blob/dev/CONTRIBUTING.md"
                           target="_blank"
                           rel="noreferrer"
                           className="text-nofx-gold hover:underline"
@@ -289,7 +289,7 @@ export function FAQContent({
                         </a>
                         {'  |  '}
                         <a
-                          href="https://github.com/NoFxAiOS/nofx/blob/dev/.github/PR_TITLE_GUIDE.md"
+                          href="https://github.com/JMWL66/nofx/blob/dev/.github/PR_TITLE_GUIDE.md"
                           target="_blank"
                           rel="noreferrer"
                           className="text-nofx-gold hover:underline"
@@ -324,7 +324,7 @@ export function FAQContent({
                             <li>
                               在 PR 中关联 Issue（示例：
                               <code className="ml-1">Closes #123</code>），PR
-                              目标选择 <code>NoFxAiOS/nofx:dev</code>。
+                              目标选择 <code>JMWL66/nofx:dev</code>。
                             </li>
                             <li>
                               保持与 <code>upstream/dev</code>{' '}
@@ -361,7 +361,7 @@ export function FAQContent({
                             <li>
                               Link the Issue in PR (e.g.,{' '}
                               <code className="ml-1">Closes #123</code>) and
-                              target <code>NoFxAiOS/nofx:dev</code>.
+                              target <code>JMWL66/nofx:dev</code>.
                             </li>
                             <li>
                               Keep rebasing onto <code>upstream/dev</code>,
@@ -378,7 +378,7 @@ export function FAQContent({
                             我们为高质量贡献提供激励（Bounty/奖金、荣誉徽章与鸣谢、优先
                             Review/合并与内测资格 等）。 详情可关注带
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/labels/bounty"
+                              href="https://github.com/JMWL66/nofx/labels/bounty"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -387,7 +387,7 @@ export function FAQContent({
                             </a>
                             的任务，或使用
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
+                              href="https://github.com/JMWL66/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -403,7 +403,7 @@ export function FAQContent({
                             shout-outs, priority review/merge, beta access).
                             Look for tasks with
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/labels/bounty"
+                              href="https://github.com/JMWL66/nofx/labels/bounty"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}
@@ -412,7 +412,7 @@ export function FAQContent({
                             </a>
                             , or submit a
                             <a
-                              href="https://github.com/NoFxAiOS/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
+                              href="https://github.com/JMWL66/nofx/blob/dev/.github/ISSUE_TEMPLATE/bounty_claim.md"
                               target="_blank"
                               rel="noreferrer"
                               style={{ color: '#F0B90B' }}

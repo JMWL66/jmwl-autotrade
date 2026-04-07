@@ -24,10 +24,10 @@ export default function FooterSection({ language }: FooterSectionProps) {
     resources: [
       {
         name: language === 'zh' ? '文档' : 'Documentation',
-        href: 'https://github.com/NoFxAiOS/nofx/blob/main/README.md',
+        href: 'https://github.com/JMWL66/nofx/blob/main/README.md',
       },
-      { name: 'Issues', href: 'https://github.com/NoFxAiOS/nofx/issues' },
-      { name: 'Pull Requests', href: 'https://github.com/NoFxAiOS/nofx/pulls' },
+      { name: 'Issues', href: 'https://github.com/JMWL66/nofx/issues' },
+      { name: 'Pull Requests', href: 'https://github.com/JMWL66/nofx/pulls' },
     ],
     supporters: [
       { name: 'Binance', href: 'https://www.binance.com/join?ref=NOFXENG' },

