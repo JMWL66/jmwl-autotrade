@@ -105,7 +105,7 @@ func (pb *PromptBuilder) buildSystemPromptZH() string {
   - OPEN_NEW: 开设新仓位
   - WAIT: 等待，不采取任何行动
 - **leverage**: 杠杆倍数（开新仓时必需）
-- **position_size_usd**: 仓位大小（USDT，开新仓时必需）
+- **position_size_usd**: 仓位名义价值（USDT，开新仓时必需）。注意：BTC/ETH 必须 ≥ 105，其他币种必须 ≥ 20
 - **stop_loss**: 止损价格（开新仓时建议提供）
 - **take_profit**: 止盈价格（开新仓时建议提供）
 - **confidence**: 信心度（0-100）
@@ -240,7 +240,7 @@ func (pb *PromptBuilder) buildSystemPromptEN() string {
   - OPEN_NEW: Open new position
   - WAIT: Wait, take no action
 - **leverage**: Leverage multiplier (required for new positions)
-- **position_size_usd**: Position size in USDT (required for new positions)
+- **position_size_usd**: Notional position size in USDT (required for new positions). Note: BTC/ETH size must be ≥ 105, other coins must be ≥ 20.
 - **stop_loss**: Stop-loss price (recommended for new positions)
 - **take_profit**: Take-profit price (recommended for new positions)
 - **confidence**: Confidence level (0-100)
