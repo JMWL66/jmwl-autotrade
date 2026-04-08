@@ -96,7 +96,7 @@ export function StrategyStudioPage() {
   const [isRunningAiTest, setIsRunningAiTest] = useState(false)
 
   const toggleSection = (section: keyof typeof expandedSections) => {
-    setExpandedSections((prev) => ({
+    setExpandedSections((prev: typeof expandedSections) => ({
       ...prev,
       [section]: !prev[section],
     }))
@@ -178,7 +178,7 @@ export function StrategyStudioPage() {
         const defaultConfig = await response.json()
 
         // Update only the prompt sections and language field
-        setEditingConfig(prev => {
+        setEditingConfig((prev: StrategyConfig | null) => {
           if (!prev) return prev
           return {
             ...prev,
@@ -443,10 +443,12 @@ export function StrategyStudioPage() {
     section: K,
     value: StrategyConfig[K]
   ) => {
-    if (!editingConfig) return
-    setEditingConfig({
-      ...editingConfig,
-      [section]: value,
+    setEditingConfig((prev: StrategyConfig | null) => {
+      if (!prev) return prev
+      return {
+        ...prev,
+        [section]: value,
+      }
     })
     setHasChanges(true)
   }

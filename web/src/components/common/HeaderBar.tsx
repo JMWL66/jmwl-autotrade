@@ -142,7 +142,8 @@ export default function HeaderBar({
                 href={OFFICIAL_LINKS.youtube}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg transition-all hover:scale-110 text-jmwl-text-muted hover:text-[#FF0000] hover:bg-[#FF0000]/10"
+                className="p-2 rounded-lg transition-all hover:scale-110 hover:bg-[#FF0000]/10"
+                style={{ color: '#FF0000' }}
                 title="YouTube"
               >
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -154,7 +155,8 @@ export default function HeaderBar({
                 href={OFFICIAL_LINKS.twitter}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg transition-all hover:scale-110 text-jmwl-text-muted hover:text-[#1DA1F2] hover:bg-[#1DA1F2]/10"
+                className="p-2 rounded-lg transition-all hover:scale-110 hover:bg-white/10"
+                style={{ color: '#E7E9EA' }}
                 title="Twitter"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -166,7 +168,8 @@ export default function HeaderBar({
                 href={OFFICIAL_LINKS.telegram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-lg transition-all hover:scale-110 text-jmwl-text-muted hover:text-[#0088cc] hover:bg-[#0088cc]/10"
+                className="p-2 rounded-lg transition-all hover:scale-110 hover:bg-[#26A5E4]/10"
+                style={{ color: '#26A5E4' }}
                 title="Telegram"
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">

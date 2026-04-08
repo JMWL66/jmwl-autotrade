@@ -671,8 +671,8 @@ export const translations = {
     faqCategoryContributing: 'Contributing',
 
     // ===== GETTING STARTED =====
-    faqWhatIsJMWL-AutoTrade: 'What is JMWL-AutoTrade?',
-    faqWhatIsJMWL-AutoTradeAnswer:
+    'faqWhatIsJMWL-AutoTrade': 'What is JMWL-AutoTrade?',
+    'faqWhatIsJMWL-AutoTradeAnswer':
       'JMWL-AutoTrade is an open-source AI-powered trading operating system for cryptocurrency and US stock markets. It uses large language models (LLMs) like DeepSeek, GPT, Claude, Gemini to analyze market data and make autonomous trading decisions. Key features include: multi-AI model support, multi-exchange trading, and visual strategy builder.',
 
     faqHowDoesItWork: 'How does JMWL-AutoTrade work?',
@@ -716,8 +716,8 @@ export const translations = {
     faqServerDeploymentAnswer:
       'Run the install script on your server - it auto-detects the server IP. Access via http://YOUR_SERVER_IP:3000. For HTTPS: 1) Use Cloudflare (free) - add domain, create A record pointing to server IP, set SSL to "Flexible"; 2) Enable TRANSPORT_ENCRYPTION=true in .env for browser-side encryption; 3) Access via https://your-domain.com',
 
-    faqUpdateJMWL-AutoTrade: 'How do I update JMWL-AutoTrade?',
-    faqUpdateJMWL-AutoTradeAnswer:
+    'faqUpdateJMWL-AutoTrade': 'How do I update JMWL-AutoTrade?',
+    'faqUpdateJMWL-AutoTradeAnswer':
       'For Docker: Run "docker compose pull && docker compose up -d" to pull latest images and restart. For manual installation: "git pull && go build -o jmwl-autotrade" for backend, "cd web && npm install && npm run build" for frontend. Your configurations in data.db are preserved during updates.',
 
     // ===== CONFIGURATION =====
@@ -824,8 +824,8 @@ export const translations = {
     faqSecurityBestPracticesAnswer:
       'Recommended: 1) Use exchange API keys with IP whitelist and minimal permissions (Futures Trading only); 2) Use dedicated subaccount for JMWL-AutoTrade; 3) Enable TRANSPORT_ENCRYPTION for remote deployments; 4) Never share .env or data.db files; 5) Use HTTPS with valid certificates; 6) Regularly rotate API keys; 7) Monitor account activity.',
 
-    faqCanJMWL-AutoTradeStealFunds: 'Can JMWL-AutoTrade steal my funds?',
-    faqCanJMWL-AutoTradeStealFundsAnswer:
+    'faqCanJMWL-AutoTradeStealFunds': 'Can JMWL-AutoTrade steal my funds?',
+    'faqCanJMWL-AutoTradeStealFundsAnswer':
       'JMWL-AutoTrade is open-source (AGPL-3.0 license) - you can audit all code on GitHub. API keys are stored locally on YOUR machine, never sent to external servers. JMWL-AutoTrade only has the permissions you grant via API keys. For maximum safety: use API keys with trading-only permissions (no withdrawal), enable IP whitelist, use a dedicated subaccount.',
 
     // ===== FEATURES =====
@@ -1982,8 +1982,8 @@ export const translations = {
     faqCategoryContributing: '参与贡献',
 
     // ===== 入门指南 =====
-    faqWhatIsJMWL-AutoTrade: 'JMWL-AutoTrade 是什么？',
-    faqWhatIsJMWL-AutoTradeAnswer:
+    'faqWhatIsJMWL-AutoTrade': 'JMWL-AutoTrade 是什么？',
+    'faqWhatIsJMWL-AutoTradeAnswer':
       'JMWL-AutoTrade 是一个开源的 AI 驱动交易操作系统，支持加密货币和美股市场。它使用大语言模型（LLM）如 DeepSeek、GPT、Claude、Gemini 来分析市场数据，进行自主交易决策。核心功能包括：多 AI 模型支持、多交易所交易、可视化策略构建器、回测系统。',
 
     faqHowDoesItWork: 'JMWL-AutoTrade 是如何工作的？',
@@ -2027,8 +2027,8 @@ export const translations = {
     faqServerDeploymentAnswer:
       '在服务器上运行安装脚本 - 它会自动检测服务器 IP。通过 http://服务器IP:3000 访问。配置 HTTPS：1）使用 Cloudflare（免费）- 添加域名，创建 A 记录指向服务器 IP，SSL 设为"灵活"；2）在 .env 中启用 TRANSPORT_ENCRYPTION=true 进行浏览器端加密；3）通过 https://你的域名.com 访问。',
 
-    faqUpdateJMWL-AutoTrade: '如何更新 JMWL-AutoTrade？',
-    faqUpdateJMWL-AutoTradeAnswer:
+    'faqUpdateJMWL-AutoTrade': '如何更新 JMWL-AutoTrade？',
+    'faqUpdateJMWL-AutoTradeAnswer':
       'Docker 方式：运行 "docker compose pull && docker compose up -d" 拉取最新镜像并重启。手动安装：后端 "git pull && go build -o jmwl-autotrade"，前端 "cd web && npm install && npm run build"。data.db 中的配置在更新时会保留。',
 
     // ===== 配置设置 =====
@@ -2135,8 +2135,8 @@ export const translations = {
     faqSecurityBestPracticesAnswer:
       '建议：1）使用带 IP 白名单和最小权限（仅合约交易）的交易所 API 密钥；2）为 JMWL-AutoTrade 使用专用子账户；3）远程部署启用 TRANSPORT_ENCRYPTION；4）切勿分享 .env 或 data.db 文件；5）使用有效证书的 HTTPS；6）定期轮换 API 密钥；7）监控账户活动。',
 
-    faqCanJMWL-AutoTradeStealFunds: 'JMWL-AutoTrade 会盗取我的资金吗？',
-    faqCanJMWL-AutoTradeStealFundsAnswer:
+    'faqCanJMWL-AutoTradeStealFunds': 'JMWL-AutoTrade 会盗取我的资金吗？',
+    'faqCanJMWL-AutoTradeStealFundsAnswer':
       'JMWL-AutoTrade 是开源的（AGPL-3.0 许可）- 您可以在 GitHub 审计所有代码。API 密钥存储在您的机器本地，从不发送到外部服务器。JMWL-AutoTrade 只有您通过 API 密钥授予的权限。为最大安全：使用仅交易权限（无提现）的 API 密钥，启用 IP 白名单，使用专用子账户。',
 
     // ===== 功能介绍 =====
@@ -3210,8 +3210,8 @@ export const translations = {
     faqCategoryFeatures: 'Fitur',
     faqCategoryAIModels: 'Model AI',
     faqCategoryContributing: 'Kontribusi',
-    faqWhatIsJMWL-AutoTrade: 'Apa itu JMWL-AutoTrade?',
-    faqWhatIsJMWL-AutoTradeAnswer: 'JMWL-AutoTrade adalah sistem operasi trading bertenaga AI open-source untuk pasar kripto dan saham AS. Ia menggunakan model bahasa besar (LLM) seperti DeepSeek, GPT, Claude, Gemini untuk menganalisis data pasar dan membuat keputusan trading secara otonom. Fitur utama: dukungan multi-model AI, trading multi-bursa, dan pembangun strategi visual.',
+    'faqWhatIsJMWL-AutoTrade': 'Apa itu JMWL-AutoTrade?',
+    'faqWhatIsJMWL-AutoTradeAnswer': 'JMWL-AutoTrade adalah sistem operasi trading bertenaga AI open-source untuk pasar kripto dan saham AS. Ia menggunakan model bahasa besar (LLM) seperti DeepSeek, GPT, Claude, Gemini untuk menganalisis data pasar dan membuat keputusan trading secara otonom. Fitur utama: dukungan multi-model AI, trading multi-bursa, dan pembangun strategi visual.',
     faqHowDoesItWork: 'Bagaimana cara kerja JMWL-AutoTrade?',
     faqHowDoesItWorkAnswer: 'JMWL-AutoTrade bekerja dalam 5 langkah: 1) Konfigurasi model AI dan kredensial API bursa; 2) Buat strategi trading (pemilihan koin, indikator, kontrol risiko); 3) Buat "Trader" menggabungkan Model AI + Bursa + Strategi; 4) Mulai trader - dia akan menganalisis data pasar secara berkala dan membuat keputusan beli/jual/tahan; 5) Pantau performa di dasbor.',
     faqIsProfitable: 'Apakah JMWL-AutoTrade menguntungkan?',
@@ -3232,8 +3232,8 @@ export const translations = {
     faqManualInstallationAnswer: 'Prasyarat: Go 1.21+, Node.js 18+, TA-Lib. Langkah: 1) Clone repo; 2) "go mod download"; 3) "cd web && npm install"; 4) "go build -o jmwl-autotrade"; 5) "./jmwl-autotrade"; 6) "cd web && npm run dev".',
     faqServerDeployment: 'Bagaimana cara deploy ke server remote?',
     faqServerDeploymentAnswer: 'Jalankan skrip instal di server Anda. Akses via http://IP_SERVER:3000. Untuk HTTPS: Gunakan Cloudflare (gratis) dan aktifkan TRANSPORT_ENCRYPTION=true di .env.',
-    faqUpdateJMWL-AutoTrade: 'Bagaimana cara memperbarui JMWL-AutoTrade?',
-    faqUpdateJMWL-AutoTradeAnswer: 'Docker: "docker compose pull && docker compose up -d". Manual: "git pull && go build -o jmwl-autotrade" untuk backend, "cd web && npm install && npm run build" untuk frontend.',
+    'faqUpdateJMWL-AutoTrade': 'Bagaimana cara memperbarui JMWL-AutoTrade?',
+    'faqUpdateJMWL-AutoTradeAnswer': 'Docker: "docker compose pull && docker compose up -d". Manual: "git pull && go build -o jmwl-autotrade" untuk backend, "cd web && npm install && npm run build" untuk frontend.',
     faqConfigureAIModels: 'Bagaimana cara mengonfigurasi model AI?',
     faqConfigureAIModelsAnswer: 'Buka halaman Konfigurasi → bagian Model AI. Untuk setiap model: 1) Dapatkan API key dari penyedia; 2) Masukkan API key; 3) Opsional kustomisasi base URL dan nama model; 4) Simpan.',
     faqConfigureExchanges: 'Bagaimana cara mengonfigurasi koneksi bursa?',
@@ -3284,8 +3284,8 @@ export const translations = {
     faqEncryptionDetailsAnswer: 'JMWL-AutoTrade menggunakan: 1) AES-256-GCM untuk penyimpanan database; 2) RSA-2048 untuk enkripsi transport opsional; 3) JWT untuk token autentikasi.',
     faqSecurityBestPractices: 'Apa praktik terbaik keamanan?',
     faqSecurityBestPracticesAnswer: 'Disarankan: 1) Gunakan API key dengan whitelist IP dan izin minimal; 2) Gunakan sub-akun khusus; 3) Aktifkan TRANSPORT_ENCRYPTION; 4) Gunakan HTTPS.',
-    faqCanJMWL-AutoTradeStealFunds: 'Bisakah JMWL-AutoTrade mencuri dana saya?',
-    faqCanJMWL-AutoTradeStealFundsAnswer: 'JMWL-AutoTrade open-source (lisensi AGPL-3.0) - Anda bisa audit semua kode. API key disimpan lokal di mesin ANDA, tidak pernah dikirim ke server eksternal.',
+    'faqCanJMWL-AutoTradeStealFunds': 'Bisakah JMWL-AutoTrade mencuri dana saya?',
+    'faqCanJMWL-AutoTradeStealFundsAnswer': 'JMWL-AutoTrade open-source (lisensi AGPL-3.0) - Anda bisa audit semua kode. API key disimpan lokal di mesin ANDA, tidak pernah dikirim ke server eksternal.',
     faqStrategyStudio: 'Apa itu Strategy Studio?',
     faqStrategyStudioAnswer: 'Strategy Studio adalah pembangun strategi visual untuk konfigurasi: Sumber Koin, Indikator Teknikal, Kontrol Risiko, dan Prompt Kustom. Tanpa coding.',
     faqCompetitionMode: 'Apa itu Mode Kompetisi?',
